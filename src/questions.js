@@ -1,7 +1,6 @@
 // src/questions.js
 
 export const quizData = [
-    [
   {
     "type": "multiple-choice",
     "question": "What is 'cái ghế sô-pha'?",
@@ -142,5 +141,5 @@ export const quizData = [
     "correctAnswer": "bathtub",
     "phonetic": "/ˈbæθ.tʌb/"
   }
-]
+
 ];
