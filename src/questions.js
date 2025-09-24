@@ -1,32 +1,146 @@
 // src/questions.js
 
 export const quizData = [
-    {
-        "type": "multiple-choice",
-        "question": "What is 'cái ghế sô-pha' in English?",
-        "options": "chair;table;sofa;bed",
-        "correctAnswer": "sofa",
-        "phonetic": "/ˈsoʊ.fə/"
-    },
-    {
-        "type": "multiple-choice",
-        "question": "What is 'cái gối' in English?",
-        "options": "sheet;bed;pillow;blanket",
-        "correctAnswer": "pillow",
-        "phonetic": "/ˈpɪl.oʊ/"
-    },
-    {
-        "type": "fill-in-the-blank",
-        "question": "What is 'cái tủ quần áo' in English?",
-        "options": "",
-        "correctAnswer": "wardrobe",
-        "phonetic": "/ˈwɔːr.droʊb/"
-    },
-    {
-        "type": "multiple-choice",
-        "question": "What is 'tủ lạnh' in English?",
-        "options": "freezer;fridge;oven;stove",
-        "correctAnswer": "fridge",
-        "phonetic": "/frɪdʒ/"
-    }
+    [
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái ghế sô-pha'?",
+    "options": "chair;table;sofa;bed",
+    "correctAnswer": "sofa",
+    "phonetic": "/ˈsoʊ.fə/"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you use to watch cartoons?",
+    "options": "",
+    "correctAnswer": "television",
+    "phonetic": "/ˈtel.ə.vɪʒ.ən/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái bàn'?",
+    "options": "table;desk;chair;shelf",
+    "correctAnswer": "table",
+    "phonetic": "/ˈteɪ.bəl/"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What gives us light at night?",
+    "options": "",
+    "correctAnswer": "lamp",
+    "phonetic": "/læmp/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'giá sách'?",
+    "options": "bookshelf;book;shelf;table",
+    "correctAnswer": "bookshelf",
+    "phonetic": "/ˈbʊk.ʃelf/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái giường'?",
+    "options": "pillow;blanket;bed;bedroom",
+    "correctAnswer": "bed",
+    "phonetic": "/bed/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái gối'?",
+    "options": "sheet;bed;pillow;blanket",
+    "correctAnswer": "pillow",
+    "phonetic": "/ˈpɪl.oʊ/"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you cover yourself with when you sleep?",
+    "options": "",
+    "correctAnswer": "blanket",
+    "phonetic": "/ˈblæŋ.kɪt/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'tủ quần áo'?",
+    "options": "wardrobe;closet;shelf;drawer",
+    "correctAnswer": "wardrobe",
+    "phonetic": "/ˈwɔːr.droʊb/"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What wakes you up in the morning?",
+    "options": "",
+    "correctAnswer": "alarm clock",
+    "phonetic": "/əˈlɑːrm ˌklɑːk/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'tủ lạnh'?",
+    "options": "freezer;fridge;oven;stove",
+    "correctAnswer": "fridge",
+    "phonetic": "/frɪdʒ/"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What keeps your food hot?",
+    "options": "",
+    "correctAnswer": "microwave",
+    "phonetic": "/ˈmaɪ.kroʊ.weɪv/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái thìa'?",
+    "options": "spoon;fork;knife;plate",
+    "correctAnswer": "spoon",
+    "phonetic": "/spuːn/"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you use with a knife to cut meat?",
+    "options": "",
+    "correctAnswer": "fork",
+    "phonetic": "/fɔːrk/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái đĩa (để ăn)'?",
+    "options": "plate;fork;cup;bowl",
+    "correctAnswer": "plate",
+    "phonetic": "/pleɪt/"
+  },
+  {
+    "type": "ill-in-the-blank",
+    "question": "What do you use to wash your hands?",
+    "options": "",
+    "correctAnswer": "soap",
+    "phonetic": "/soʊp/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'bàn chải đánh răng'?",
+    "options": "toothpaste;brush;comb;toothbrush",
+    "correctAnswer": "toothbrush",
+    "phonetic": "/ˈtuːθ.brʌʃ/"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you use to dry your body?",
+    "options": "",
+    "correctAnswer": "towel",
+    "phonetic": "/taʊəl/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What do you look at to see yourself?",
+    "options": "window;glass;picture;mirror",
+    "correctAnswer": "mirror",
+    "phonetic": "/ˈmɪr.ɚ/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'bồn tắm'?",
+    "options": "bathtub;shower;sink;toilet",
+    "correctAnswer": "bathtub",
+    "phonetic": "/ˈbæθ.tʌb/"
+  }
+]
 ];
