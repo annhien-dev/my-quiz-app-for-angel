@@ -1,28 +1,32 @@
 // src/questions.js
 
 export const quizData = [
-  {
-    "type": "multiple-choice",
-    "question": "Đâu là một loại trái cây?",
-    "options": "Xe đạp;Cái bàn;Quả táo;Ngôi nhà",
-    "correctAnswer": "Quả táo"
-  },
-  {
-    "type": "fill-in-the-blank",
-    "question": "Con gì kêu 'gâu gâu'? (Gõ 'con chó')",
-    "options": "",
-    "correctAnswer": "con chó"
-  },
-  {
-    "type": "multiple-choice",
-    "question": "Hà Nội là thủ đô của nước nào?",
-    "options": "Việt Nam;Thái Lan;Nhật Bản",
-    "correctAnswer": "Việt Nam"
-  },
-  {
-    "type": "fill-in-the-blank",
-    "question": "Bầu trời có màu gì? (Gõ 'xanh')",
-    "options": "",
-    "correctAnswer": "xanh"
-  }
+    {
+        "type": "multiple-choice",
+        "question": "What is 'cái ghế sô-pha' in English?",
+        "options": "chair;table;sofa;bed",
+        "correctAnswer": "sofa",
+        "phonetic": "/ˈsoʊ.fə/"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is 'cái gối' in English?",
+        "options": "sheet;bed;pillow;blanket",
+        "correctAnswer": "pillow",
+        "phonetic": "/ˈpɪl.oʊ/"
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "What is 'cái tủ quần áo' in English?",
+        "options": "",
+        "correctAnswer": "wardrobe",
+        "phonetic": "/ˈwɔːr.droʊb/"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is 'tủ lạnh' in English?",
+        "options": "freezer;fridge;oven;stove",
+        "correctAnswer": "fridge",
+        "phonetic": "/frɪdʒ/"
+    }
 ];

@@ -9,29 +9,28 @@ function App() {
   const [showScore, setShowScore] = useState(false);
   const [inputValue, setInputValue] = useState('');
   
-  // State mới để lưu trữ thông báo
-  const [feedback, setFeedback] = useState({ message: '', type: '' }); 
-  // State mới để kiểm tra đã trả lời câu hỏi chưa
+  // Cập nhật state để chứa cả phiên âm
+  const [feedback, setFeedback] = useState({ message: '', type: '', phonetic: '' }); 
   const [isAnswered, setIsAnswered] = useState(false); 
 
   const handleAnswerSubmit = (submittedAnswer) => {
-    if (isAnswered) return; // Nếu đã trả lời rồi thì không làm gì cả
-    setIsAnswered(true); // Đánh dấu là đã trả lời
+    if (isAnswered) return;
+    setIsAnswered(true);
 
-    const correctAnswer = quizData[currentQuestion].correctAnswer;
-    
-    // Kiểm tra câu trả lời và set thông báo
+    const currentQuizItem = quizData[currentQuestion];
+    const correctAnswer = currentQuizItem.correctAnswer;
+    const phonetic = currentQuizItem.phonetic || ''; // Lấy phiên âm, nếu không có thì là chuỗi rỗng
+
     if (submittedAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
       setScore(score + 1);
-      setFeedback({ message: "Chúc mừng Tú Anh Angel!", type: 'correct' });
+      setFeedback({ message: "Chúc mừng Tú Anh Angel!", type: 'correct', phonetic: phonetic });
     } else {
-      setFeedback({ message: "Sai rồi, cố gắng ở lần sau nhé!", type: 'incorrect' });
+      setFeedback({ message: "Sai rồi, cố gắng ở lần sau nhé!", type: 'incorrect', phonetic: phonetic });
     }
 
-    // Tạo độ trễ 2 giây trước khi chuyển câu hỏi
     setTimeout(() => {
       setInputValue('');
-      setFeedback({ message: '', type: '' });
+      setFeedback({ message: '', type: '', phonetic: '' });
 
       const nextQuestion = currentQuestion + 1;
       if (nextQuestion < quizData.length) {
@@ -40,8 +39,8 @@ function App() {
         setShowScore(true);
       }
 
-      setIsAnswered(false); // Cho phép trả lời ở câu hỏi tiếp theo
-    }, 2000); // 2000 milliseconds = 2 giây
+      setIsAnswered(false);
+    }, 2500); // Tăng thời gian lên 2.5s để bé kịp đọc
   };
 
   const handleRestartQuiz = () => {
@@ -69,15 +68,20 @@ function App() {
             <div className="question-text">{currentQuestionData.question}</div>
           </div>
           <div className="answer-section">
-            {/* HIỂN THỊ THÔNG BÁO PHẢN HỒI */}
+            {/* CẬP NHẬT PHẦN HIỂN THỊ THÔNG BÁO */}
             {feedback.message && (
               <div className={`feedback ${feedback.type === 'correct' ? 'feedback-correct' : 'feedback-incorrect'}`}>
                 {feedback.message}
+                {feedback.phonetic && (
+                  <span className="phonetic-text">
+                    {currentQuestionData.correctAnswer}: {feedback.phonetic}
+                  </span>
+                )}
               </div>
             )}
 
             {currentQuestionData.type === 'multiple-choice' ? (
-              currentQuestionData.options.split(';').map((option, index) => (
+              (currentQuestionData.options || '').split(';').map((option, index) => (
                 <button 
                   key={index} 
                   onClick={() => handleAnswerSubmit(option)}
