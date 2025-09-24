@@ -1,6 +1,23 @@
 /* src/App.css */
+
+/* === PHẦN SỬA ĐỔI CHO ẢNH NỀN === */
 body {
-  background-color: #f0f2f5;
+  /* 1. Đường dẫn tới ảnh trong thư mục public */
+  background-image: url('/background.png'); 
+  
+  /* 2. Đảm bảo ảnh nền phủ kín màn hình */
+  background-size: cover; 
+  
+  /* 3. Căn giữa ảnh nền */
+  background-position: center; 
+  
+  /* 4. Ngăn ảnh nền lặp lại */
+  background-repeat: no-repeat; 
+
+  /* 5. Giữ ảnh nền cố định khi cuộn trang */
+  background-attachment: fixed; 
+  
+  /* --- Các thuộc tính cũ giữ nguyên --- */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,16 +26,27 @@ body {
   margin: 0;
 }
 
+/* === SỬA ĐỔI KHUNG TRẮC NGHIỆM ĐỂ NỔI BẬT HƠN === */
 .app {
-  background-color: white;
+  /* Màu trắng bán trong suốt để nhìn thấy nền (0.9 là 90% độ mờ) */
+  background-color: rgba(255, 255, 255, 0.9); 
+
+  /* (Tùy chọn) Hiệu ứng kính mờ rất đẹp */
+  backdrop-filter: blur(5px);
+  
+  /* Tăng độ sâu cho bóng đổ */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+
+  /* --- Các thuộc tính cũ giữ nguyên --- */
   width: 90%;
   max-width: 500px;
   min-height: 200px;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
+
+/* --- CÁC PHẦN CÒN LẠI GIỮ NGUYÊN --- */
 
 .score-section {
   font-size: 24px;
@@ -78,8 +106,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* === PHẦN CSS CẬP NHẬT === */
-
 .feedback {
   padding: 10px;
   border-radius: 5px;
@@ -107,7 +133,6 @@ input:disabled {
   opacity: 0.7;
 }
 
-/* CSS MỚI CHO PHIÊN ÂM */
 .phonetic-text {
   display: block;
   margin-top: 8px;
