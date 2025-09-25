@@ -9,9 +9,11 @@ function App() {
   const [showScore, setShowScore] = useState(false);
   const [inputValue, setInputValue] = useState('');
   
-  // Cập nhật state để chứa cả phiên âm
   const [feedback, setFeedback] = useState({ message: '', type: '', phonetic: '' }); 
   const [isAnswered, setIsAnswered] = useState(false); 
+
+  // PHẦN THÊM MỚI 1: Thêm state để quản lý việc hiển thị gợi ý
+  const [showHint, setShowHint] = useState(false);
 
   const handleAnswerSubmit = (submittedAnswer) => {
     if (isAnswered) return;
@@ -19,11 +21,11 @@ function App() {
 
     const currentQuizItem = quizData[currentQuestion];
     const correctAnswer = currentQuizItem.correctAnswer;
-    const phonetic = currentQuizItem.phonetic || ''; // Lấy phiên âm, nếu không có thì là chuỗi rỗng
+    const phonetic = currentQuizItem.phonetic || ''; 
 
     if (submittedAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
       setScore(score + 1);
-      setFeedback({ message: "Chúc mừng Tú Anh Angel!", type: 'correct', phonetic: phonetic });
+      setFeedback({ message: "Chúc mừng!", type: 'correct', phonetic: phonetic });
     } else {
       setFeedback({ message: "Sai rồi, cố gắng ở lần sau nhé!", type: 'incorrect', phonetic: phonetic });
     }
@@ -39,14 +41,21 @@ function App() {
         setShowScore(true);
       }
 
+      // PHẦN THÊM MỚI 2: Reset lại gợi ý khi sang câu mới
+      setShowHint(false); 
       setIsAnswered(false);
-    }, 2500); // Tăng thời gian lên 2.5s để bé kịp đọc
+    }, 5000); 
   };
 
   const handleRestartQuiz = () => {
     setCurrentQuestion(0);
     setScore(0);
     setShowScore(false);
+  };
+
+  // PHẦN THÊM MỚI 3: Hàm để bật gợi ý
+  const handleShowHint = () => {
+    setShowHint(true);
   };
 
   const currentQuestionData = quizData[currentQuestion];
@@ -66,9 +75,21 @@ function App() {
               <span>Câu hỏi {currentQuestion + 1}</span>/{quizData.length}
             </div>
             <div className="question-text">{currentQuestionData.question}</div>
+
+            {/* PHẦN THÊM MỚI 4: Hiển thị nút Gợi ý và nội dung gợi ý */}
+            <div className="hint-section">
+              {currentQuestionData.hint && !showHint && (
+                <button onClick={handleShowHint} className="hint-button">
+                  Xem Gợi ý
+                </button>
+              )}
+              {showHint && (
+                <p className="hint-text">Gợi ý: {currentQuestionData.hint}</p>
+              )}
+            </div>
           </div>
+          
           <div className="answer-section">
-            {/* CẬP NHẬT PHẦN HIỂN THỊ THÔNG BÁO */}
             {feedback.message && (
               <div className={`feedback ${feedback.type === 'correct' ? 'feedback-correct' : 'feedback-incorrect'}`}>
                 {feedback.message}

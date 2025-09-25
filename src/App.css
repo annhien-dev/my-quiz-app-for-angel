@@ -141,3 +141,35 @@ input:disabled {
   color: #333;
   font-weight: normal;
 }
+
+/* === PHẦN THÊM MỚI CHO CHỨC NĂNG GỢI Ý === */
+.hint-section {
+  margin-top: 15px;
+  min-height: 40px; /* Tạo khoảng trống để giao diện không bị giật khi hint xuất hiện */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hint-button {
+  background-color: #ffc107; /* Màu vàng cho nút Gợi ý nổi bật */
+  color: #212529; /* Màu chữ đen */
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hint-button:hover {
+  background-color: #e0a800; /* Màu vàng đậm hơn khi di chuột */
+}
+
+.hint-text {
+  font-style: italic;
+  color: #6c757d; /* Màu xám */
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px dashed #ced4da;
+  width: 90%; /* Chiếm gần hết chiều rộng để dễ đọc */
+  margin: 0 auto; /* Căn giữa */
+}
