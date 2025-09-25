@@ -6,145 +6,159 @@ export const quizData = [
     "question": "What is 'ghế sô-pha'?",
     "options": "chair;table;sofa;bed",
     "correctAnswer": "sofa",
-    "phonetic": "/ˈsoʊ.fə/"
+    "phonetic": "/ˈsoʊ.fə/ : Ghế sofa",
+    "hint": "Cách đọc của từ đó là /ˈsoʊ.fə/"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use to watch cartoons?",
-    "hint": "cartoons /ˈkɑː.tuːnz/ : phim hoạt hình",
+    "question": "What do you use to watch cartoons?\n(cartoons /ˈkɑː.tuːnz/ : phim hoạt hình)",
     "options": "",
     "correctAnswer": "television",
-    "phonetic": "/ˈtel.ə.vɪʒ.ən/"
+    "phonetic": "/ˈtel.ə.vɪʒ.ən/ : Tivi",
+    "hint": "tele...sion"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái bàn'?",
     "options": "table;desk;chair;shelf",
     "correctAnswer": "table",
-    "phonetic": "/ˈteɪ.bəl/"
+    "phonetic": "/ˈteɪ.bəl/ : cái bàn",
+    "hint": "cách đọc của từ đó là /ˈteɪ.bəl/"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What gives us light at night?",
-    "hint": "light /laɪt/ : ánh sáng",
+    "question": "What gives us light at night?\n(light /laɪt/ : ánh sáng\ngives /ɡɪvz/ : cho, cung cấp\nnight /naɪt/ : ban đêm",
     "options": "",
     "correctAnswer": "lamp",
-    "phonetic": "/læmp/"
+    "phonetic": "/læmp/ : cái đèn",
+    "hint": "Cách đọc của từ đó là /læmp/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'giá sách'?",
     "options": "bookshelf;book;shelf;table",
     "correctAnswer": "bookshelf",
-    "phonetic": "/ˈbʊk.ʃelf/"
+    "phonetic": "/ˈbʊk.ʃelf/ : giá sách",
+    "hint": "Cách đọc của từ đó là /ˈbʊk.ʃelf/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái giường'?",
     "options": "pillow;blanket;bed;bedroom",
     "correctAnswer": "bed",
-    "phonetic": "/bed/"
+    "phonetic": "/bed/ : cái giường",
+    "hint": ""
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái gối'?",
     "options": "sheet;bed;pillow;blanket",
     "correctAnswer": "pillow",
-    "phonetic": "/ˈpɪl.oʊ/"
+    "phonetic": "/ˈpɪl.oʊ/ : cái gối",
+    "hint": "Cách đọc của từ đó là /ˈpɪl.oʊ/"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you cover yourself with when you sleep?",
-    "hint": "cover /ˈkʌvər/ → đắp, che phủ",
+    "question": "What do you cover yourself with when you sleep?\n(Gợi ý: cover /ˈkʌvər/ → đắp, che phủ)",
     "options": "",
     "correctAnswer": "blanket",
-    "phonetic": "/ˈblæŋ.kɪt/"
+    "phonetic": "/ˈblæŋ.kɪt/\nblanket = cái chăn",
+    "hint": "dùng để đắp khi ngủ, giữ ấm.\nCách đọc từ đó là /ˈblæŋ.kɪt/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'tủ quần áo'?",
     "options": "wardrobe;closet;shelf;drawer",
     "correctAnswer": "wardrobe",
-    "phonetic": "/ˈwɔːr.droʊb/"
+    "phonetic": "/ˈwɔːr.droʊb/",
+    "hint": "cách đọc của từ đó là /ˈwɔːr.droʊb/"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What wakes you up in the morning?",
     "options": "",
     "correctAnswer": "alarm clock",
-    "phonetic": "/əˈlɑːrm ˌklɑːk/"
+    "phonetic": "/əˈlɑːrm ˌklɑːk/ : đồng hồ báo thức",
+    "hint": ""
   },
   {
     "type": "multiple-choice",
     "question": "What is 'tủ lạnh'?",
     "options": "freezer;fridge;oven;stove",
     "correctAnswer": "fridge",
-    "phonetic": "/frɪdʒ/"
+    "phonetic": "/frɪdʒ/ : tủ lạnh",
+    "hint": "cách đọc từ đó là /frɪdʒ/"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What keeps your food hot?",
     "options": "",
     "correctAnswer": "microwave",
-    "phonetic": "/ˈmaɪ.kroʊ.weɪv/"
+    "phonetic": "/ˈmaɪ.kroʊ.weɪv/ : Lò vi sóng",
+    "hint": "cách đọc từ đó là /ˈmaɪ.kroʊ.weɪv/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái thìa'?",
     "options": "spoon;fork;knife;plate",
     "correctAnswer": "spoon",
-    "phonetic": "/spuːn/"
+    "phonetic": "/spuːn/ : cái thìa",
+    "hint": "cách đọc từ đó là /spuːn/"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use with a knife to cut meat?",
-    "hint": "knife /naɪf/: dao, meat /miːt/: thịt",
+    "question": "What do you use with a knife to cut meat?\nknife /naɪf/: dao\nmeat /miːt/ : thịt",
     "options": "",
     "correctAnswer": "fork",
-    "phonetic": "/fɔːrk/"
+    "phonetic": "/fɔːrk/ : cái dĩa",
+    "hint": "cách đọc từ đó là /fɔːrk/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái đĩa (để ăn)'?",
     "options": "plate;fork;cup;bowl",
     "correctAnswer": "plate",
-    "phonetic": "/pleɪt/"
+    "phonetic": "/pleɪt/ : cái đĩa",
+    "hint": "cách đọc từ đó là /pleɪt/"
   },
   {
-    "type": "fill-in-the-blank",
+    "type": "ill-in-the-blank",
     "question": "What do you use to wash your hands?",
     "options": "",
     "correctAnswer": "soap",
-    "phonetic": "/soʊp/"
+    "phonetic": "/soʊp/ : xà phòng",
+    "hint": "sử dụng xà phòng.\ntừ đó có cách đọc là /soʊp/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'bàn chải đánh răng'?",
     "options": "toothpaste;brush;comb;toothbrush",
     "correctAnswer": "toothbrush",
-    "phonetic": "/ˈtuːθ.brʌʃ/"
+    "phonetic": "/ˈtuːθ.brʌʃ/ : bàn chải đánh răng",
+    "hint": ""
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use to dry your body?",
-    "hint": "dry /draɪ/: làm khô, lau khô, body /ˈbɒdi/: cơ thể",
+    "question": "What do you use to dry your body?\ndry /draɪ/ : làm khô, lau khô\nbody /ˈbɒdi/ : cơ thể",
     "options": "",
     "correctAnswer": "towel",
-    "phonetic": "/taʊəl/"
+    "phonetic": "/taʊəl/ : cái khăn",
+    "hint": "khăn tắm, khăn lau, khăn để lau khô người hoặc đồ vật sau khi ướt.\ntừ đó có cách đọc là /taʊəl/"
   },
   {
     "type": "multiple-choice",
-    "question": "What do you look at to see yourself?",
-    "hint": "yourself /jɔːrˈself/: chính bạn, bản thân bạn",
+    "question": "What do you look at to see yourself?\nyourself /jɔːrˈself/ : chính bạn, bản thân bạn",
     "options": "window;glass;picture;mirror",
     "correctAnswer": "mirror",
-    "phonetic": "/ˈmɪr.ɚ/"
+    "phonetic": "/ˈmɪr.ɚ/ : cái gương",
+    "hint": "Cái gương\ntừ đó có cách đọc là /ˈmɪr.ɚ/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'bồn tắm'?",
     "options": "bathtub;shower;sink;toilet",
     "correctAnswer": "bathtub",
-    "phonetic": "/ˈbæθ.tʌb/"
+    "phonetic": "/ˈbæθ.tʌb/ : bồn tắm",
+    "hint": "cách đọc của từ đó là /ˈbæθ.tʌb/"
   }
 ];

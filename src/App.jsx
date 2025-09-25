@@ -44,7 +44,7 @@ function App() {
       // PHẦN THÊM MỚI 2: Reset lại gợi ý khi sang câu mới
       setShowHint(false); 
       setIsAnswered(false);
-    }, 5000); 
+    }, 3000); 
   };
 
   const handleRestartQuiz = () => {
@@ -72,7 +72,7 @@ function App() {
         <>
           <div className="question-section">
             <div className="question-count">
-              <span>Câu hỏi {currentQuestion + 1}</span>/{quizData.length}
+              <span>Question {currentQuestion + 1}</span>/{quizData.length}
             </div>
             <div className="question-text">{currentQuestionData.question}</div>
 
@@ -80,7 +80,7 @@ function App() {
             <div className="hint-section">
               {currentQuestionData.hint && !showHint && (
                 <button onClick={handleShowHint} className="hint-button">
-                  Xem Gợi ý
+                  Hint
                 </button>
               )}
               {showHint && (
@@ -126,7 +126,7 @@ function App() {
                   className="submit-button"
                   disabled={isAnswered}
                 >
-                  Trả lời
+                  Submit
                 </button>
               </form>
             )}
