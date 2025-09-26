@@ -1,4 +1,4 @@
-/* src/App.css (Phiên bản Hoàn Chỉnh Cuối Cùng - Responsive & Tinh Chỉnh Layout) */
+/* src/App.css (Phiên bản cuối cùng, Gradient Button) */
 
 /* --- 1. Cài đặt chung & Font chữ --- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
@@ -22,7 +22,7 @@ body {
   background-color: var(--main-bg);
   color: #333;
   -webkit-font-smoothing: antialiased;
-  overflow: hidden; /* Ngăn scroll toàn bộ trang */
+  overflow: hidden;
 }
 
 /* --- 2. Layout & Sidebar --- */
@@ -48,7 +48,7 @@ body {
 }
 .sidebar-header { padding: 15px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--sidebar-hover-bg); }
 .sidebar-title { opacity: 1; transition: opacity 0.3s ease; }
-.toggle-sidebar-btn { background: none; border: none; color: var(--sidebar-text); font-size: 1.5em; cursor: pointer; padding: 5px; }
+
 .sidebar-nav { overflow-y: auto; flex-grow: 1; opacity: 1; transition: opacity 0.3s ease; }
 .topic-group { border-bottom: 1px solid var(--sidebar-hover-bg); }
 .topic-title { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 15px 20px; background: none; border: none; color: var(--sidebar-text); font-size: 1em; font-weight: 600; cursor: pointer; text-align: left; transition: background-color 0.2s ease; overflow: hidden; white-space: nowrap; }
@@ -83,39 +83,21 @@ body {
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* --- 4. Quiz Component --- */
+/* (Phần này giữ nguyên, không cần thay đổi) */
 .quiz-container {
   background: rgba(44, 62, 80, 0.8); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border: 1px solid var(--border-color); box-shadow: var(--shadow); color: #ecf0f1; padding: 40px; border-radius: 15px; width: 100%; max-width: 700px; text-align: center;
 }
 .progress-bar-container { width: 100%; height: 12px; background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; margin-bottom: 30px; overflow: hidden; }
 .progress-bar-fill { height: 100%; background-color: var(--highlight-color); border-radius: 10px; box-shadow: 0 0 10px rgba(243, 156, 18, 0.7); transition: width 0.5s ease-in-out; }
-
 .question-section { margin-bottom: 20px; }
 .question-count { background-color: rgba(255, 255, 255, 0.1); color: var(--highlight-color); padding: 5px 15px; border-radius: 20px; font-weight: bold; display: inline-block; margin-bottom: 25px; }
 .question-text { font-size: 1.8em; font-weight: 600; line-height: 1.4; }
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 .fade-in { animation: fadeInUp 0.5s ease forwards; }
-
-.hint-section {
-  margin-bottom: 30px;
-  min-height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.hint-section { margin-bottom: 30px; min-height: 50px; display: flex; justify-content: center; align-items: center; }
 .hint-button { background-color: var(--highlight-color); color: #2c3e50; border: none; border-radius: 20px; padding: 10px 25px; font-weight: bold; font-size: 0.9em; cursor: pointer; transition: transform 0.2s; }
 .hint-button:hover { transform: scale(1.05); }
-.hint-text {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 15px;
-  border-radius: 8px;
-  border-left: 4px solid var(--highlight-color);
-  color: #bdc3c7;
-  font-style: italic;
-  width: 100%;
-  white-space: pre-line;
-  text-align: left;
-}
-
+.hint-text { background-color: rgba(0, 0, 0, 0.2); padding: 15px; border-radius: 8px; border-left: 4px solid var(--highlight-color); color: #bdc3c7; font-style: italic; width: 100%; white-space: pre-line; text-align: left; }
 .answer-section { display: flex; flex-direction: column; gap: 15px; }
 .answer-section button { font-family: 'Montserrat', sans-serif; }
 .answer-section button:not(.submit-button) { background-color: transparent; color: #ecf0f1; width: 100%; text-align: left; border: 2px solid #56708a; border-radius: 10px; padding: 18px 25px; font-size: 1.1em; cursor: pointer; transition: all 0.2s ease-in-out; }
@@ -124,41 +106,22 @@ body {
 .answer-section .text-input:focus { outline: none; border-color: var(--highlight-color); box-shadow: 0 0 0 3px rgba(243, 156, 18, 0.3); }
 .submit-button { background-color: #2980b9; color: white; border: none; border-radius: 10px; padding: 15px 30px; font-size: 1.1em; font-weight: bold; cursor: pointer; transition: background-color 0.2s; }
 .submit-button:hover { background-color: #3498db; }
-
-/* === 4.5. TRẠNG THÁI VÀ FEEDBACK (PHIÊN BẢN NÂNG CẤP) === */
 button.correct, .text-input.correct { background-color: var(--correct-color) !important; border-color: #2ecc71 !important; color: white !important; }
 button.incorrect, .text-input.incorrect { background-color: var(--incorrect-color) !important; border-color: #e74c3c !important; color: white !important; }
 button:disabled { cursor: not-allowed; opacity: 0.7; }
-
 .feedback-section { margin-bottom: 20px; animation: fadeInUp 0.5s ease; }
 .feedback-line { display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 15px; }
-
-.feedback-icon {
-  font-size: 3em; /* <-- ICON TO HƠN */
-}
-.feedback-message {
-  font-size: 1.8em; /* <-- CHỮ TO HƠN */
-  font-weight: 700;
-  margin: 0;
-  color: #fff; /* <-- THAY ĐỔI QUAN TRỌNG: Luôn giữ chữ màu trắng */
-}
-.feedback-line.correct {
-  color: var(--correct-color);
-}
-.feedback-line.incorrect {
-  color: var(--incorrect-color);
-}
-.feedback-line.correct .feedback-message {
-  animation: sparkle 1.5s infinite; /* <-- ÁP DỤNG HIỆU ỨNG LẤP LÁNH */
-}
+.feedback-icon { font-size: 3em; }
+.feedback-message { font-size: 1.8em; font-weight: 700; margin: 0; color: #fff; }
+.feedback-line.correct { color: var(--correct-color); }
+.feedback-line.incorrect { color: var(--incorrect-color); }
+.feedback-line.correct .feedback-message { animation: sparkle 1.5s infinite; }
 @keyframes sparkle {
   0%, 100% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px var(--highlight-color), 0 0 20px var(--highlight-color); }
   50% { text-shadow: 0 0 10px #fff, 0 0 20px var(--highlight-color), 0 0 30px var(--sidebar-active-bg), 0 0 40px var(--sidebar-active-bg); }
 }
-
 .correct-answer-feedback { margin-top: 15px; padding: 10px; background-color: rgba(39, 174, 96, 0.2); color: var(--correct-color); border-radius: 5px; font-size: 1.2em; font-weight: 600; }
 .phonetic-text { margin-top: 15px; padding: 10px; background-color: rgba(0, 0, 0, 0.2); color: #bdc3c7; border-radius: 5px; font-size: 1.1em; }
-
 .score-section h2 { font-size: 2.5em; margin-bottom: 20px; }
 .score-section p { font-size: 1.5em; margin-bottom: 30px; }
 .score-section button { margin: 0 10px; }
@@ -195,4 +158,76 @@ button:disabled { cursor: not-allowed; opacity: 0.7; }
     padding: 15px 20px;
     font-size: 1em;
   }
+}
+
+/* === CSS CHO NÚT HAMBURGER (PHIÊN BẢN GRADIENT) === */
+
+/* 1. Style cho nút trôi nổi mới */
+.floating-toggle-btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  
+  /* Màu gradient mới */
+  background-image: linear-gradient(135deg, #5EE7DF 0%, #B490CA 100%);
+  color: white;
+  border: none;
+
+  width: 50px; /* Giảm kích thước */
+  height: 50px;
+  
+  /* Bo góc dưới bên phải */
+  border-radius: 0 0 16px 0; 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+  cursor: pointer;
+  
+  /* Transition cho hiệu ứng mượt mà */
+  transition: all 0.3s ease-in-out;
+}
+
+/* 2. Hiệu ứng khi di chuột vào: Phóng to nhẹ */
+.floating-toggle-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* 3. Style cho icon hamburger bên trong để có thể xoay */
+.floating-toggle-btn span {
+  display: block; /* Cần có để transform hoạt động */
+  transition: transform 0.3s ease;
+}
+
+/* 4. Khi sidebar mở ra, XOAY icon hamburger */
+.app-container:not(.sidebar-collapsed) .floating-toggle-btn span {
+  transform: rotate(90deg);
+}
+
+/* 5. Xóa/ẩn các style cũ không cần thiết */
+.sidebar-header {
+  justify-content: center; 
+}
+.toggle-sidebar-btn { 
+  display: none; 
+}
+/* src/App.css */
+
+/* === CSS SỬA LỖI NÚT TRÊN MÀN HÌNH KẾT QUẢ === */
+
+.score-buttons {
+  display: flex;
+  flex-direction: column; /* Xếp các nút theo chiều dọc */
+  gap: 15px; /* Tạo khoảng cách 15px giữa các nút */
+  width: 100%;
+  max-width: 300px; /* Giới hạn chiều rộng tối đa của nút */
+  margin: 30px auto 0; /* Căn giữa và tạo khoảng cách với text ở trên */
+}
+
+/* Xóa margin cũ của button trong score-section để không bị xung đột */
+.score-section button {
+  margin: 0;
 }

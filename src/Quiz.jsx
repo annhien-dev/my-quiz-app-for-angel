@@ -91,8 +91,11 @@ function Quiz({ questions, lessonTitle }) {
       <div className="quiz-container score-section fade-in">
         <h2>Hoàn thành!</h2>
         <p>Bạn đã trả lời đúng {score} trên {questions.length} câu hỏi.</p>
-        <button className="submit-button" onClick={restartQuiz}>Làm lại bài này</button>
-        <button className="submit-button" onClick={() => window.location.reload()}>Chọn bài khác</button>
+        {/* THÊM DIV NÀY ĐỂ BỌC CÁC NÚT */}
+        <div className="score-buttons">
+          <button className="submit-button" onClick={restartQuiz}>Làm lại bài này</button>
+          <button className="submit-button" onClick={() => window.location.reload()}>Chọn bài khác</button>
+        </div>
       </div>
     );
   }

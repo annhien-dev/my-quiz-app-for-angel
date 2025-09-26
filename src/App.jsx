@@ -1,4 +1,4 @@
-// src/App.jsx (Phiên bản Hoàn Chỉnh Cuối Cùng)
+// src/App.jsx (Phiên bản đã sửa)
 import React, { useState, useEffect } from 'react';
 import Quiz from './Quiz';
 import './App.css';
@@ -10,11 +10,9 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [expandedTopics, setExpandedTopics] = useState({});
   
-  // STATE MỚI: Quản lý trạng thái đóng/mở sidebar
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
 
   useEffect(() => {
-    // ... logic fetch dữ liệu giữ nguyên ...
     fetch('/data/structure.json')
       .then(res => res.json())
       .then(data => {
@@ -27,7 +25,6 @@ function App() {
   }, []);
 
   const handleSelectLesson = (lesson) => {
-    // ... logic chọn bài học giữ nguyên ...
     if (activeLesson?.id === lesson.id) return;
     setIsLoading(true);
     setActiveLesson(lesson);
@@ -45,7 +42,6 @@ function App() {
   };
   
   const toggleTopic = (topicId) => {
-    // ... logic đóng mở chủ đề giữ nguyên ...
     setExpandedTopics(prev => ({
       ...prev,
       [topicId]: !prev[topicId]
@@ -53,15 +49,20 @@ function App() {
   };
 
   return (
-    // Áp dụng className động vào container chính
     <div className={`app-container ${isSidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
+      
+      {/* ===== NÚT TOGGLE LUÔN HIỂN THỊ (ĐÃ DI CHUYỂN RA NGOÀI) ===== */}
+      <button 
+        className="floating-toggle-btn" 
+        onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
+      >
+        <span>&#9776;</span>
+      </button>
+
       {/* ===== SIDEBAR MENU ===== */}
       <aside className="sidebar">
         <div className="sidebar-header">
-          {/* NÚT ẨN/HIỆN SIDEBAR */}
-          <button className="toggle-sidebar-btn" onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}>
-            <span>&#9776;</span> {/* Ký tự icon menu (hamburger) */}
-          </button>
+          {/* Nút hamburger đã được chuyển ra ngoài */}
           <h3 className="sidebar-title">Các chủ đề</h3>
         </div>
         <nav className="sidebar-nav">
