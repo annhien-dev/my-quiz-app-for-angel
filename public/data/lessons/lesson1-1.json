@@ -1,6 +1,4 @@
-// src/questions.js
-
-export const quizData = [
+[
   {
     "type": "multiple-choice",
     "question": "What is 'ghế sô-pha'?",
@@ -11,11 +9,11 @@ export const quizData = [
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use to watch cartoons?\n(cartoons /ˈkɑː.tuːnz/ : phim hoạt hình)",
+    "question": "What do you use to watch cartoons?",
     "options": "",
     "correctAnswer": "television",
     "phonetic": "/ˈtel.ə.vɪʒ.ən/ : Tivi",
-    "hint": "tele...sion"
+    "hint": "tele...sion\ncartoons /ˈkɑː.tuːnz/ : phim hoạt hình"
   },
   {
     "type": "multiple-choice",
@@ -27,11 +25,11 @@ export const quizData = [
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What gives us light at night?\n(light /laɪt/ : ánh sáng\ngives /ɡɪvz/ : cho, cung cấp\nnight /naɪt/ : ban đêm",
+    "question": "What gives us light at night?",
     "options": "",
     "correctAnswer": "lamp",
     "phonetic": "/læmp/ : cái đèn",
-    "hint": "Cách đọc của từ đó là /læmp/"
+    "hint": "Cách đọc của từ đó là /læmp/\nlight /laɪt/ : ánh sáng\ngives /ɡɪvz/ : cho, cung cấp\nnight /naɪt/ : ban đêm"
   },
   {
     "type": "multiple-choice",
@@ -59,11 +57,11 @@ export const quizData = [
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you cover yourself with when you sleep?\n(Gợi ý: cover /ˈkʌvər/ → đắp, che phủ)",
+    "question": "What do you cover yourself with when you sleep?",
     "options": "",
     "correctAnswer": "blanket",
     "phonetic": "/ˈblæŋ.kɪt/\nblanket = cái chăn",
-    "hint": "dùng để đắp khi ngủ, giữ ấm.\nCách đọc từ đó là /ˈblæŋ.kɪt/"
+    "hint": "dùng để đắp khi ngủ, giữ ấm.\nCách đọc từ đó là /ˈblæŋ.kɪt/\ncover /ˈkʌvər/ → đắp, che phủ"
   },
   {
     "type": "multiple-choice",
@@ -107,11 +105,11 @@ export const quizData = [
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use with a knife to cut meat?\nknife /naɪf/: dao\nmeat /miːt/ : thịt",
+    "question": "What do you use with a knife to cut meat?",
     "options": "",
     "correctAnswer": "fork",
     "phonetic": "/fɔːrk/ : cái dĩa",
-    "hint": "cách đọc từ đó là /fɔːrk/"
+    "hint": "cách đọc từ đó là /fɔːrk/\nknife /naɪf/: dao\nmeat /miːt/ : thịt"
   },
   {
     "type": "multiple-choice",
@@ -122,7 +120,7 @@ export const quizData = [
     "hint": "cách đọc từ đó là /pleɪt/"
   },
   {
-    "type": "ill-in-the-blank",
+    "type": "fill-in-the-blank",
     "question": "What do you use to wash your hands?",
     "options": "",
     "correctAnswer": "soap",
@@ -139,19 +137,19 @@ export const quizData = [
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use to dry your body?\ndry /draɪ/ : làm khô, lau khô\nbody /ˈbɒdi/ : cơ thể",
+    "question": "What do you use to dry your body?",
     "options": "",
     "correctAnswer": "towel",
     "phonetic": "/taʊəl/ : cái khăn",
-    "hint": "khăn tắm, khăn lau, khăn để lau khô người hoặc đồ vật sau khi ướt.\ntừ đó có cách đọc là /taʊəl/"
+    "hint": "khăn tắm, khăn lau, khăn để lau khô người hoặc đồ vật sau khi ướt.\ntừ đó có cách đọc là /taʊəl/\ndry /draɪ/ : làm khô, lau khô\nbody /ˈbɒdi/ : cơ thể"
   },
   {
     "type": "multiple-choice",
-    "question": "What do you look at to see yourself?\nyourself /jɔːrˈself/ : chính bạn, bản thân bạn",
+    "question": "What do you look at to see yourself?",
     "options": "window;glass;picture;mirror",
     "correctAnswer": "mirror",
     "phonetic": "/ˈmɪr.ɚ/ : cái gương",
-    "hint": "Cái gương\ntừ đó có cách đọc là /ˈmɪr.ɚ/"
+    "hint": "Cái gương\ntừ đó có cách đọc là /ˈmɪr.ɚ/\nyourself /jɔːrˈself/ : chính bạn, bản thân bạn"
   },
   {
     "type": "multiple-choice",
@@ -161,4 +159,4 @@ export const quizData = [
     "phonetic": "/ˈbæθ.tʌb/ : bồn tắm",
     "hint": "cách đọc của từ đó là /ˈbæθ.tʌb/"
   }
-];
+]

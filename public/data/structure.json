@@ -1,0 +1,43 @@
+[
+  {
+    "id": "topic1",
+    "title": "Chủ đề 1: Bí Mật Ngôi Nhà",
+    "icon": "🏠",
+    "lessons": [
+      {
+        "id": "lesson1-1",
+        "title": "Bài 1: Đồ dùng gia đình",
+        "path": "/data/lessons/lesson1-1.json"
+      },
+      {
+        "id": "lesson1-2",
+        "title": "Bài 2: Phòng Bếp Vui Nhộn",
+        "path": "/data/lessons/lesson1-2.json"
+      }
+    ]
+  },
+  {
+    "id": "topic2",
+    "title": "Chủ đề 2: Vườn Cây Diệu Kỳ",
+    "icon": "🌳",
+    "lessons": [
+      {
+        "id": "lesson2-1",
+        "title": "Bài 1: Các loại trái cây",
+        "path": "/data/lessons/lesson2-1.json"
+      }
+    ]
+  },
+   {
+    "id": "topic3",
+    "title": "Chủ đề 3: Thế giới động vật",
+    "icon": "🐱",
+    "lessons": [
+      {
+        "id": "lesson2-1",
+        "title": "Bài 1: Các loại trái cây",
+        "path": "/data/lessons/lesson2-1.json"
+      }
+    ]
+  }
+]

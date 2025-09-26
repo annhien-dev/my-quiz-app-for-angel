@@ -1,175 +1,198 @@
-/* src/App.css */
+/* src/App.css (Phiên bản Hoàn Chỉnh Cuối Cùng - Responsive & Tinh Chỉnh Layout) */
 
-/* === PHẦN SỬA ĐỔI CHO ẢNH NỀN === */
+/* --- 1. Cài đặt chung & Font chữ --- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --sidebar-bg: rgba(44, 62, 80, 0.85);
+  --sidebar-text: #ecf0f1;
+  --sidebar-hover-bg: #34495e;
+  --sidebar-active-bg: #e67e22;
+  --main-bg: #f4f7f6;
+  --correct-color: #27ae60;
+  --incorrect-color: #c0392b;
+  --highlight-color: #f39c12;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-  /* 1. Đường dẫn tới ảnh trong thư mục public */
-  background-image: url('/background.png'); 
-  
-  /* 2. Đảm bảo ảnh nền phủ kín màn hình */
-  background-size: cover; 
-  
-  /* 3. Căn giữa ảnh nền */
-  background-position: center; 
-  
-  /* 4. Ngăn ảnh nền lặp lại */
-  background-repeat: no-repeat; 
-
-  /* 5. Giữ ảnh nền cố định khi cuộn trang */
-  background-attachment: fixed; 
-  
-  /* --- Các thuộc tính cũ giữ nguyên --- */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-
-/* === SỬA ĐỔI KHUNG TRẮC NGHIỆM ĐỂ NỔI BẬT HƠN === */
-.app {
-  /* Màu trắng bán trong suốt để nhìn thấy nền (0.9 là 90% độ mờ) */
-  background-color: rgba(255, 255, 255, 0.9); 
-
-  /* (Tùy chọn) Hiệu ứng kính mờ rất đẹp */
-  backdrop-filter: blur(5px);
-  
-  /* Tăng độ sâu cho bóng đổ */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-
-  /* --- Các thuộc tính cũ giữ nguyên --- */
-  width: 90%;
-  max-width: 500px;
-  min-height: 200px;
-  border-radius: 15px;
-  padding: 20px;
-  text-align: center;
-}
-
-/* --- CÁC PHẦN CÒN LẠI GIỮ NGUYÊN --- */
-
-.score-section {
-  font-size: 24px;
-}
-
-.question-section {
-  margin-bottom: 20px;
-}
-
-.question-count {
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: #555;
-}
-
-.question-text {
-  font-size: 22px;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--main-bg);
   color: #333;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden; /* Ngăn scroll toàn bộ trang */
 }
 
-.answer-section {
+/* --- 2. Layout & Sidebar --- */
+.app-container { display: flex; height: 100vh; }
+.app-container.sidebar-collapsed .sidebar { width: 80px; }
+.app-container.sidebar-collapsed .sidebar-title,
+.app-container.sidebar-collapsed .sidebar-nav { opacity: 0; pointer-events: none; }
+.app-container.sidebar-collapsed .sidebar-header { justify-content: center; }
+
+.sidebar {
+  width: 300px;
+  background-color: var(--sidebar-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-right: 1px solid var(--border-color);
+  color: var(--sidebar-text);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  flex-shrink: 0; 
+  transition: width 0.3s ease, transform 0.3s ease;
+  position: relative;
+  z-index: 10;
 }
+.sidebar-header { padding: 15px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--sidebar-hover-bg); }
+.sidebar-title { opacity: 1; transition: opacity 0.3s ease; }
+.toggle-sidebar-btn { background: none; border: none; color: var(--sidebar-text); font-size: 1.5em; cursor: pointer; padding: 5px; }
+.sidebar-nav { overflow-y: auto; flex-grow: 1; opacity: 1; transition: opacity 0.3s ease; }
+.topic-group { border-bottom: 1px solid var(--sidebar-hover-bg); }
+.topic-title { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 15px 20px; background: none; border: none; color: var(--sidebar-text); font-size: 1em; font-weight: 600; cursor: pointer; text-align: left; transition: background-color 0.2s ease; overflow: hidden; white-space: nowrap; }
+.topic-title:hover { background-color: var(--sidebar-hover-bg); }
+.topic-text { flex-grow: 1; }
+.topic-title .arrow { font-size: 1.5em; transition: transform 0.3s ease; }
+.topic-title .arrow.expanded { transform: rotate(90deg); }
+.lesson-list { list-style-type: none; background-color: rgba(0, 0, 0, 0.2); padding: 5px 0; overflow: hidden; }
+.lesson-item { padding: 15px 20px 15px 40px; cursor: pointer; transition: background-color 0.2s ease, border-left-color 0.2s ease; border-left: 4px solid transparent; white-space: nowrap; }
+.lesson-item:hover { background-color: var(--sidebar-hover-bg); }
+.lesson-item.active { background-color: var(--sidebar-active-bg); color: white; font-weight: 700; border-left-color: var(--highlight-color); }
 
-button {
-  font-size: 16px;
-  color: white;
-  background-color: #252d4a;
-  border-radius: 15px;
-  padding: 15px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s;
+/* --- 3. Main Content Area --- */
+.main-content {
+  flex-grow: 1;
+  height: 100vh;
+  overflow-y: auto;
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
 }
-
-button:hover {
-  background-color: #515e8b;
+.content-area {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
+.welcome-screen { background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.4); padding: 40px; border-radius: 15px; text-align: center; max-width: 600px; box-shadow: var(--shadow); }
+.loading-spinner { width: 50px; height: 50px; border: 5px solid rgba(255, 255, 255, 0.2); border-top-color: var(--highlight-color); border-radius: 50%; animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
 
-.text-input {
-  width: calc(100% - 22px);
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
+/* --- 4. Quiz Component --- */
+.quiz-container {
+  background: rgba(44, 62, 80, 0.8); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border: 1px solid var(--border-color); box-shadow: var(--shadow); color: #ecf0f1; padding: 40px; border-radius: 15px; width: 100%; max-width: 700px; text-align: center;
 }
+.progress-bar-container { width: 100%; height: 12px; background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; margin-bottom: 30px; overflow: hidden; }
+.progress-bar-fill { height: 100%; background-color: var(--highlight-color); border-radius: 10px; box-shadow: 0 0 10px rgba(243, 156, 18, 0.7); transition: width 0.5s ease-in-out; }
 
-.submit-button {
-  background-color: #007bff;
-}
+.question-section { margin-bottom: 20px; }
+.question-count { background-color: rgba(255, 255, 255, 0.1); color: var(--highlight-color); padding: 5px 15px; border-radius: 20px; font-weight: bold; display: inline-block; margin-bottom: 25px; }
+.question-text { font-size: 1.8em; font-weight: 600; line-height: 1.4; }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.fade-in { animation: fadeInUp 0.5s ease forwards; }
 
-.submit-button:hover {
-  background-color: #0056b3;
-}
-
-.feedback {
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.feedback-correct {
-  color: #155724;
-  background-color: #d4edda;
-  border: 1px solid #c3e6cb;
-}
-
-.feedback-incorrect {
-  color: #721c24;
-  background-color: #f8d7da;
-  border: 1px solid #f5c6cb;
-}
-
-button:disabled,
-input:disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-  opacity: 0.7;
-}
-
-.phonetic-text {
-  display: block;
-  margin-top: 8px;
-  font-size: 16px;
-  font-style: italic;
-  color: #333;
-  font-weight: normal;
-}
-
-/* === PHẦN THÊM MỚI CHO CHỨC NĂNG GỢI Ý === */
 .hint-section {
-  margin-top: 15px;
-  min-height: 40px; /* Tạo khoảng trống để giao diện không bị giật khi hint xuất hiện */
+  margin-bottom: 30px;
+  min-height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.hint-button {
-  background-color: #ffc107; /* Màu vàng cho nút Gợi ý nổi bật */
-  color: #212529; /* Màu chữ đen */
-  padding: 8px 16px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.hint-button:hover {
-  background-color: #e0a800; /* Màu vàng đậm hơn khi di chuột */
-}
-
+.hint-button { background-color: var(--highlight-color); color: #2c3e50; border: none; border-radius: 20px; padding: 10px 25px; font-weight: bold; font-size: 0.9em; cursor: pointer; transition: transform 0.2s; }
+.hint-button:hover { transform: scale(1.05); }
 .hint-text {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid var(--highlight-color);
+  color: #bdc3c7;
   font-style: italic;
-  color: #6c757d; /* Màu xám */
-  background-color: #f8f9fa;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px dashed #ced4da;
-  width: 90%; /* Chiếm gần hết chiều rộng để dễ đọc */
-  margin: 0 auto; /* Căn giữa */
+  width: 100%;
+  white-space: pre-line;
+  text-align: left;
+}
+
+.answer-section { display: flex; flex-direction: column; gap: 15px; }
+.answer-section button { font-family: 'Montserrat', sans-serif; }
+.answer-section button:not(.submit-button) { background-color: transparent; color: #ecf0f1; width: 100%; text-align: left; border: 2px solid #56708a; border-radius: 10px; padding: 18px 25px; font-size: 1.1em; cursor: pointer; transition: all 0.2s ease-in-out; }
+.answer-section button:not(.submit-button):not(:disabled):hover { background-color: #4a627a; border-color: var(--highlight-color); transform: translateY(-2px); }
+.answer-section .text-input { background-color: #ecf0f1; border: 2px solid #56708a; border-radius: 10px; color: #2c3e50; font-size: 1.2em; font-weight: bold; padding: 15px 20px; width: 100%; text-align: center; margin-bottom: 15px; transition: border-color 0.2s, box-shadow 0.2s; }
+.answer-section .text-input:focus { outline: none; border-color: var(--highlight-color); box-shadow: 0 0 0 3px rgba(243, 156, 18, 0.3); }
+.submit-button { background-color: #2980b9; color: white; border: none; border-radius: 10px; padding: 15px 30px; font-size: 1.1em; font-weight: bold; cursor: pointer; transition: background-color 0.2s; }
+.submit-button:hover { background-color: #3498db; }
+
+/* === 4.5. TRẠNG THÁI VÀ FEEDBACK (PHIÊN BẢN NÂNG CẤP) === */
+button.correct, .text-input.correct { background-color: var(--correct-color) !important; border-color: #2ecc71 !important; color: white !important; }
+button.incorrect, .text-input.incorrect { background-color: var(--incorrect-color) !important; border-color: #e74c3c !important; color: white !important; }
+button:disabled { cursor: not-allowed; opacity: 0.7; }
+
+.feedback-section { margin-bottom: 20px; animation: fadeInUp 0.5s ease; }
+.feedback-line { display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 15px; }
+
+.feedback-icon {
+  font-size: 3em; /* <-- ICON TO HƠN */
+}
+.feedback-message {
+  font-size: 1.8em; /* <-- CHỮ TO HƠN */
+  font-weight: 700;
+  margin: 0;
+  color: #fff; /* <-- THAY ĐỔI QUAN TRỌNG: Luôn giữ chữ màu trắng */
+}
+.feedback-line.correct {
+  color: var(--correct-color);
+}
+.feedback-line.incorrect {
+  color: var(--incorrect-color);
+}
+.feedback-line.correct .feedback-message {
+  animation: sparkle 1.5s infinite; /* <-- ÁP DỤNG HIỆU ỨNG LẤP LÁNH */
+}
+@keyframes sparkle {
+  0%, 100% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px var(--highlight-color), 0 0 20px var(--highlight-color); }
+  50% { text-shadow: 0 0 10px #fff, 0 0 20px var(--highlight-color), 0 0 30px var(--sidebar-active-bg), 0 0 40px var(--sidebar-active-bg); }
+}
+
+.correct-answer-feedback { margin-top: 15px; padding: 10px; background-color: rgba(39, 174, 96, 0.2); color: var(--correct-color); border-radius: 5px; font-size: 1.2em; font-weight: 600; }
+.phonetic-text { margin-top: 15px; padding: 10px; background-color: rgba(0, 0, 0, 0.2); color: #bdc3c7; border-radius: 5px; font-size: 1.1em; }
+
+.score-section h2 { font-size: 2.5em; margin-bottom: 20px; }
+.score-section p { font-size: 1.5em; margin-bottom: 30px; }
+.score-section button { margin: 0 10px; }
+
+/* --- 5. RESPONSIVE DESIGN --- */
+@media (max-width: 768px) {
+  .app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  .sidebar {
+    position: absolute;
+    height: 100%;
+    transform: translateX(-100%);
+  }
+  .app-container:not(.sidebar-collapsed) .sidebar {
+    transform: translateX(0);
+    width: 280px;
+  }
+  .app-container.sidebar-collapsed .sidebar {
+    transform: translateX(-100%);
+  }
+  .content-area {
+    padding: 20px;
+  }
+  .quiz-container {
+    padding: 20px;
+  }
+  .question-text {
+    font-size: 1.5em;
+  }
+  .answer-section button:not(.submit-button) {
+    padding: 15px 20px;
+    font-size: 1em;
+  }
 }

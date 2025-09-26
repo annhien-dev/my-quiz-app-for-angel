@@ -1,138 +1,109 @@
-// src/App.jsx
-import React, { useState } from 'react';
-import { quizData } from './questions';
+// src/App.jsx (Phiên bản Hoàn Chỉnh Cuối Cùng)
+import React, { useState, useEffect } from 'react';
+import Quiz from './Quiz';
 import './App.css';
 
 function App() {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [score, setScore] = useState(0);
-  const [showScore, setShowScore] = useState(false);
-  const [inputValue, setInputValue] = useState('');
+  const [structure, setStructure] = useState([]);
+  const [quizQuestions, setQuizQuestions] = useState([]);
+  const [activeLesson, setActiveLesson] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [expandedTopics, setExpandedTopics] = useState({});
   
-  const [feedback, setFeedback] = useState({ message: '', type: '', phonetic: '' }); 
-  const [isAnswered, setIsAnswered] = useState(false); 
+  // STATE MỚI: Quản lý trạng thái đóng/mở sidebar
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
 
-  // PHẦN THÊM MỚI 1: Thêm state để quản lý việc hiển thị gợi ý
-  const [showHint, setShowHint] = useState(false);
+  useEffect(() => {
+    // ... logic fetch dữ liệu giữ nguyên ...
+    fetch('/data/structure.json')
+      .then(res => res.json())
+      .then(data => {
+        setStructure(data);
+        if (data && data.length > 0) {
+          setExpandedTopics({ [data[0].id]: true });
+        }
+      })
+      .catch(error => console.error("Lỗi khi tải file structure.json:", error));
+  }, []);
 
-  const handleAnswerSubmit = (submittedAnswer) => {
-    if (isAnswered) return;
-    setIsAnswered(true);
-
-    const currentQuizItem = quizData[currentQuestion];
-    const correctAnswer = currentQuizItem.correctAnswer;
-    const phonetic = currentQuizItem.phonetic || ''; 
-
-    if (submittedAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-      setScore(score + 1);
-      setFeedback({ message: "Chúc mừng!", type: 'correct', phonetic: phonetic });
-    } else {
-      setFeedback({ message: "Sai rồi, cố gắng ở lần sau nhé!", type: 'incorrect', phonetic: phonetic });
-    }
-
-    setTimeout(() => {
-      setInputValue('');
-      setFeedback({ message: '', type: '', phonetic: '' });
-
-      const nextQuestion = currentQuestion + 1;
-      if (nextQuestion < quizData.length) {
-        setCurrentQuestion(nextQuestion);
-      } else {
-        setShowScore(true);
-      }
-
-      // PHẦN THÊM MỚI 2: Reset lại gợi ý khi sang câu mới
-      setShowHint(false); 
-      setIsAnswered(false);
-    }, 3000); 
+  const handleSelectLesson = (lesson) => {
+    // ... logic chọn bài học giữ nguyên ...
+    if (activeLesson?.id === lesson.id) return;
+    setIsLoading(true);
+    setActiveLesson(lesson);
+    setQuizQuestions([]); 
+    fetch(lesson.path)
+      .then(res => res.json())
+      .then(data => {
+        setQuizQuestions(data);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.error(`Lỗi khi tải file ${lesson.path}:`, error);
+        setIsLoading(false);
+      });
   };
-
-  const handleRestartQuiz = () => {
-    setCurrentQuestion(0);
-    setScore(0);
-    setShowScore(false);
+  
+  const toggleTopic = (topicId) => {
+    // ... logic đóng mở chủ đề giữ nguyên ...
+    setExpandedTopics(prev => ({
+      ...prev,
+      [topicId]: !prev[topicId]
+    }));
   };
-
-  // PHẦN THÊM MỚI 3: Hàm để bật gợi ý
-  const handleShowHint = () => {
-    setShowHint(true);
-  };
-
-  const currentQuestionData = quizData[currentQuestion];
 
   return (
-    <div className="app">
-      {showScore ? (
-        <div className="score-section">
-          <h2>Bé đã hoàn thành!</h2>
-          <p>Điểm của bé là {score} trên {quizData.length}</p>
-          <button onClick={handleRestartQuiz}>Chơi lại</button>
+    // Áp dụng className động vào container chính
+    <div className={`app-container ${isSidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
+      {/* ===== SIDEBAR MENU ===== */}
+      <aside className="sidebar">
+        <div className="sidebar-header">
+          {/* NÚT ẨN/HIỆN SIDEBAR */}
+          <button className="toggle-sidebar-btn" onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}>
+            <span>&#9776;</span> {/* Ký tự icon menu (hamburger) */}
+          </button>
+          <h3 className="sidebar-title">Các chủ đề</h3>
         </div>
-      ) : (
-        <>
-          <div className="question-section">
-            <div className="question-count">
-              <span>Question {currentQuestion + 1}</span>/{quizData.length}
-            </div>
-            <div className="question-text">{currentQuestionData.question}</div>
-
-            {/* PHẦN THÊM MỚI 4: Hiển thị nút Gợi ý và nội dung gợi ý */}
-            <div className="hint-section">
-              {currentQuestionData.hint && !showHint && (
-                <button onClick={handleShowHint} className="hint-button">
-                  Hint
-                </button>
+        <nav className="sidebar-nav">
+          {structure.map(topic => (
+            <div key={topic.id} className="topic-group">
+              <button className="topic-title" onClick={() => toggleTopic(topic.id)}>
+                <span className="topic-text">{topic.icon} {topic.title}</span>
+                <span className={`arrow ${expandedTopics[topic.id] ? 'expanded' : ''}`}>›</span>
+              </button>
+              {expandedTopics[topic.id] && (
+                <ul className="lesson-list">
+                  {topic.lessons.map(lesson => (
+                    <li 
+                      key={lesson.id} 
+                      className={`lesson-item ${lesson.id === activeLesson?.id ? 'active' : ''}`}
+                      onClick={() => handleSelectLesson(lesson)}
+                    >
+                      <span>{lesson.title}</span>
+                    </li>
+                  ))}
+                </ul>
               )}
-              {showHint && (
-                <p className="hint-text">Gợi ý: {currentQuestionData.hint}</p>
-              )}
             </div>
-          </div>
-          
-          <div className="answer-section">
-            {feedback.message && (
-              <div className={`feedback ${feedback.type === 'correct' ? 'feedback-correct' : 'feedback-incorrect'}`}>
-                {feedback.message}
-                {feedback.phonetic && (
-                  <span className="phonetic-text">
-                    {currentQuestionData.correctAnswer}: {feedback.phonetic}
-                  </span>
-                )}
-              </div>
-            )}
+          ))}
+        </nav>
+      </aside>
 
-            {currentQuestionData.type === 'multiple-choice' ? (
-              (currentQuestionData.options || '').split(';').map((option, index) => (
-                <button 
-                  key={index} 
-                  onClick={() => handleAnswerSubmit(option)}
-                  disabled={isAnswered}
-                >
-                  {option}
-                </button>
-              ))
-            ) : (
-              <form onSubmit={(e) => { e.preventDefault(); handleAnswerSubmit(inputValue); }}>
-                <input
-                  type="text"
-                  className="text-input"
-                  value={inputValue}
-                  onChange={(e) => setInputValue(e.target.value)}
-                  disabled={isAnswered}
-                  autoFocus
-                />
-                <button 
-                  type="submit" 
-                  className="submit-button"
-                  disabled={isAnswered}
-                >
-                  Submit
-                </button>
-              </form>
-            )}
-          </div>
-        </>
-      )}
+      {/* ===== MAIN CONTENT ===== */}
+      <main className="main-content">
+        <div className="content-area">
+          {isLoading ? (
+            <div className="loading-spinner"></div>
+          ) : activeLesson ? (
+            <Quiz questions={quizQuestions} lessonTitle={activeLesson.title} />
+          ) : (
+            <div className="welcome-screen">
+              <h2>Chào Mừng đến với Lớp Học Bất Ổn</h2>
+              <p>Hãy chọn một bài học từ menu bên trái để bắt đầu! ✨</p>
+            </div>
+          )}
+        </div>
+      </main>
     </div>
   );
 }
