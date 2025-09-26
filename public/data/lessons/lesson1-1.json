@@ -2,161 +2,161 @@
   {
     "type": "multiple-choice",
     "question": "What is 'ghế sô-pha'?",
-    "options": "chair;table;sofa;bed",
+    "options": "sofa;chair;bed;table",
     "correctAnswer": "sofa",
-    "phonetic": "/ˈsoʊ.fə/ : Ghế sofa",
-    "hint": "Cách đọc của từ đó là /ˈsoʊ.fə/"
-  },
-  {
-    "type": "fill-in-the-blank",
-    "question": "What do you use to watch cartoons?",
-    "options": "",
-    "correctAnswer": "television",
-    "phonetic": "/ˈtel.ə.vɪʒ.ən/ : Tivi",
-    "hint": "tele...sion\ncartoons /ˈkɑː.tuːnz/ : phim hoạt hình"
+    "phonetic": "/ˈsoʊ.fə/",
+    "hint": "Cách đọc là /ˈsoʊ.fə/"
   },
   {
     "type": "multiple-choice",
-    "question": "What is 'cái bàn'?",
-    "options": "table;desk;chair;shelf",
-    "correctAnswer": "table",
-    "phonetic": "/ˈteɪ.bəl/ : cái bàn",
-    "hint": "cách đọc của từ đó là /ˈteɪ.bəl/"
+    "question": "What is 'ghế'?",
+    "options": "chair;sofa;stool;bench",
+    "correctAnswer": "chair",
+    "phonetic": "/tʃer/",
+    "hint": "Cách đọc là /tʃer/"
   },
   {
-    "type": "fill-in-the-blank",
-    "question": "What gives us light at night?",
-    "options": "",
+    "type": "multiple-choice",
+    "question": "What is 'bàn cà phê'?",
+    "options": "desk;coffee table;dining table;counter",
+    "correctAnswer": "coffee table",
+    "phonetic": "/ˈkɑː.fi ˌteɪ.bəl/",
+    "hint": "Cách đọc là /ˈkɑː.fi ˌteɪ.bəl/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'tivi'?",
+    "options": "computer;television;radio;monitor",
+    "correctAnswer": "television",
+    "phonetic": "/ˈtel.əˌvɪʒ.ən/",
+    "hint": "Cách đọc là /ˈtel.əˌvɪʒ.ən/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'đèn'?",
+    "options": "fan;lamp;sofa;chair",
     "correctAnswer": "lamp",
-    "phonetic": "/læmp/ : cái đèn",
-    "hint": "Cách đọc của từ đó là /læmp/\nlight /laɪt/ : ánh sáng\ngives /ɡɪvz/ : cho, cung cấp\nnight /naɪt/ : ban đêm"
+    "phonetic": "/læmp/",
+    "hint": "Cách đọc là /læmp/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'thảm'?",
+    "options": "rug;mat;blanket;sheet",
+    "correctAnswer": "rug",
+    "phonetic": "/rʌɡ/",
+    "hint": "Cách đọc là /rʌɡ/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'rèm cửa'?",
+    "options": "curtain;carpet;cover;blanket",
+    "correctAnswer": "curtain",
+    "phonetic": "/ˈkɝː.t̬ən/",
+    "hint": "Cách đọc là /ˈkɝː.t̬ən/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'tranh treo tường'?",
+    "options": "picture;poster;calendar;map",
+    "correctAnswer": "picture",
+    "phonetic": "/ˈpɪk.tʃɚ/",
+    "hint": "Cách đọc là /ˈpɪk.tʃɚ/"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'đồng hồ treo tường'?",
+    "options": "watch;clock;timer;alarm",
+    "correctAnswer": "clock",
+    "phonetic": "/klɑːk/",
+    "hint": "Cách đọc là /klɑːk/"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'giá sách'?",
-    "options": "bookshelf;book;shelf;table",
-    "correctAnswer": "bookshelf",
-    "phonetic": "/ˈbʊk.ʃelf/ : giá sách",
-    "hint": "Cách đọc của từ đó là /ˈbʊk.ʃelf/"
-  },
-  {
-    "type": "multiple-choice",
-    "question": "What is 'cái giường'?",
-    "options": "pillow;blanket;bed;bedroom",
-    "correctAnswer": "bed",
-    "phonetic": "/bed/ : cái giường",
-    "hint": ""
-  },
-  {
-    "type": "multiple-choice",
-    "question": "What is 'cái gối'?",
-    "options": "sheet;bed;pillow;blanket",
-    "correctAnswer": "pillow",
-    "phonetic": "/ˈpɪl.oʊ/ : cái gối",
-    "hint": "Cách đọc của từ đó là /ˈpɪl.oʊ/"
+    "options": "shelf;cabinet;bookcase;drawer",
+    "correctAnswer": "bookcase",
+    "phonetic": "/ˈbʊk.keɪs/",
+    "hint": "Cách đọc là /ˈbʊk.keɪs/"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you cover yourself with when you sleep?",
+    "question": "What do you sit on to watch TV?",
     "options": "",
-    "correctAnswer": "blanket",
-    "phonetic": "/ˈblæŋ.kɪt/\nblanket = cái chăn",
-    "hint": "dùng để đắp khi ngủ, giữ ấm.\nCách đọc từ đó là /ˈblæŋ.kɪt/\ncover /ˈkʌvər/ → đắp, che phủ"
-  },
-  {
-    "type": "multiple-choice",
-    "question": "What is 'tủ quần áo'?",
-    "options": "wardrobe;closet;shelf;drawer",
-    "correctAnswer": "wardrobe",
-    "phonetic": "/ˈwɔːr.droʊb/",
-    "hint": "cách đọc của từ đó là /ˈwɔːr.droʊb/"
+    "correctAnswer": "sofa",
+    "phonetic": "/ˈsoʊ.fə/",
+    "hint": "Cách đọc là /ˈsoʊ.fə/, bắt đầu bằng chữ S"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What wakes you up in the morning?",
+    "question": "What do you use to read a book at night?",
     "options": "",
-    "correctAnswer": "alarm clock",
-    "phonetic": "/əˈlɑːrm ˌklɑːk/ : đồng hồ báo thức",
-    "hint": ""
-  },
-  {
-    "type": "multiple-choice",
-    "question": "What is 'tủ lạnh'?",
-    "options": "freezer;fridge;oven;stove",
-    "correctAnswer": "fridge",
-    "phonetic": "/frɪdʒ/ : tủ lạnh",
-    "hint": "cách đọc từ đó là /frɪdʒ/"
+    "correctAnswer": "lamp",
+    "phonetic": "/læmp/",
+    "hint": "Cách đọc là /læmp/, bắt đầu bằng chữ L"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What keeps your food hot?",
+    "question": "What do you put books in?",
     "options": "",
-    "correctAnswer": "microwave",
-    "phonetic": "/ˈmaɪ.kroʊ.weɪv/ : Lò vi sóng",
-    "hint": "cách đọc từ đó là /ˈmaɪ.kroʊ.weɪv/"
-  },
-  {
-    "type": "multiple-choice",
-    "question": "What is 'cái thìa'?",
-    "options": "spoon;fork;knife;plate",
-    "correctAnswer": "spoon",
-    "phonetic": "/spuːn/ : cái thìa",
-    "hint": "cách đọc từ đó là /spuːn/"
+    "correctAnswer": "bookcase",
+    "phonetic": "/ˈbʊk.keɪs/",
+    "hint": "Cách đọc là /ˈbʊk.keɪs/, bắt đầu bằng chữ B"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use with a knife to cut meat?",
+    "question": "What do you put on the floor?",
     "options": "",
-    "correctAnswer": "fork",
-    "phonetic": "/fɔːrk/ : cái dĩa",
-    "hint": "cách đọc từ đó là /fɔːrk/\nknife /naɪf/: dao\nmeat /miːt/ : thịt"
-  },
-  {
-    "type": "multiple-choice",
-    "question": "What is 'cái đĩa (để ăn)'?",
-    "options": "plate;fork;cup;bowl",
-    "correctAnswer": "plate",
-    "phonetic": "/pleɪt/ : cái đĩa",
-    "hint": "cách đọc từ đó là /pleɪt/"
+    "correctAnswer": "rug",
+    "phonetic": "/rʌɡ/",
+    "hint": "Cách đọc là /rʌɡ/, bắt đầu bằng chữ R"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use to wash your hands?",
+    "question": "What do you watch cartoons on?",
     "options": "",
-    "correctAnswer": "soap",
-    "phonetic": "/soʊp/ : xà phòng",
-    "hint": "sử dụng xà phòng.\ntừ đó có cách đọc là /soʊp/"
-  },
-  {
-    "type": "multiple-choice",
-    "question": "What is 'bàn chải đánh răng'?",
-    "options": "toothpaste;brush;comb;toothbrush",
-    "correctAnswer": "toothbrush",
-    "phonetic": "/ˈtuːθ.brʌʃ/ : bàn chải đánh răng",
-    "hint": ""
+    "correctAnswer": "television",
+    "phonetic": "/ˈtel.əˌvɪʒ.ən/",
+    "hint": "Cách đọc là /ˈtel.əˌvɪʒ.ən/, bắt đầu bằng chữ T"
   },
   {
     "type": "fill-in-the-blank",
-    "question": "What do you use to dry your body?",
+    "question": "What do you cover the window with?",
     "options": "",
-    "correctAnswer": "towel",
-    "phonetic": "/taʊəl/ : cái khăn",
-    "hint": "khăn tắm, khăn lau, khăn để lau khô người hoặc đồ vật sau khi ướt.\ntừ đó có cách đọc là /taʊəl/\ndry /draɪ/ : làm khô, lau khô\nbody /ˈbɒdi/ : cơ thể"
+    "correctAnswer": "curtain",
+    "phonetic": "/ˈkɝː.t̬ən/",
+    "hint": "Cách đọc là /ˈkɝː.t̬ən/, bắt đầu bằng chữ C"
   },
   {
-    "type": "multiple-choice",
-    "question": "What do you look at to see yourself?",
-    "options": "window;glass;picture;mirror",
-    "correctAnswer": "mirror",
-    "phonetic": "/ˈmɪr.ɚ/ : cái gương",
-    "hint": "Cái gương\ntừ đó có cách đọc là /ˈmɪr.ɚ/\nyourself /jɔːrˈself/ : chính bạn, bản thân bạn"
+    "type": "fill-in-the-blank",
+    "question": "What shows the time on the wall?",
+    "options": "",
+    "correctAnswer": "clock",
+    "phonetic": "/klɑːk/",
+    "hint": "Cách đọc là /klɑːk/, bắt đầu bằng chữ C"
   },
   {
-    "type": "multiple-choice",
-    "question": "What is 'bồn tắm'?",
-    "options": "bathtub;shower;sink;toilet",
-    "correctAnswer": "bathtub",
-    "phonetic": "/ˈbæθ.tʌb/ : bồn tắm",
-    "hint": "cách đọc của từ đó là /ˈbæθ.tʌb/"
+    "type": "fill-in-the-blank",
+    "question": "What do you put your cup on?",
+    "options": "",
+    "correctAnswer": "coffee table",
+    "phonetic": "/ˈkɑː.fi ˌteɪ.bəl/",
+    "hint": "Cách đọc là /ˈkɑː.fi ˌteɪ.bəl/, bắt đầu bằng chữ C"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you sit on alone?",
+    "options": "",
+    "correctAnswer": "chair",
+    "phonetic": "/tʃer/",
+    "hint": "Cách đọc là /tʃer/, bắt đầu bằng chữ C"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you hang on the wall for decoration?",
+    "options": "",
+    "correctAnswer": "picture",
+    "phonetic": "/ˈpɪk.tʃɚ/",
+    "hint": "Cách đọc là /ˈpɪk.tʃɚ/, bắt đầu bằng chữ P"
   }
 ]

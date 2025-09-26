@@ -1,0 +1,162 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "What is 'bồn tắm'?",
+    "options": "bathtub;shower;toilet;sink",
+    "correctAnswer": "bathtub",
+    "phonetic": "/ˈbæθ.tʌb/ : bồn tắm",
+    "hint": "bathtub = bồn tắm"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'vòi sen'?",
+    "options": "sink;bathtub;shower;toilet",
+    "correctAnswer": "shower",
+    "phonetic": "/ˈʃaʊ.ɚ/ : vòi sen",
+    "hint": "shower = vòi sen"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'bồn cầu'?",
+    "options": "sink;toilet;bathtub;shower",
+    "correctAnswer": "toilet",
+    "phonetic": "/ˈtɔɪ.lət/ : bồn cầu",
+    "hint": "toilet = nhà vệ sinh"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'bồn rửa mặt'?",
+    "options": "sink;bathtub;toilet;mirror",
+    "correctAnswer": "sink",
+    "phonetic": "/sɪŋk/ : bồn rửa mặt",
+    "hint": "sink = chậu rửa"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái gương'?",
+    "options": "bathtub;mirror;toilet;cup",
+    "correctAnswer": "mirror",
+    "phonetic": "/ˈmɪr.ɚ/ : gương",
+    "hint": "mirror = gương soi"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái khăn tắm'?",
+    "options": "towel;blanket;sheet;curtain",
+    "correctAnswer": "towel",
+    "phonetic": "/ˈtaʊ.əl/ : khăn tắm",
+    "hint": "towel = khăn lau người"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'xà phòng'?",
+    "options": "toothbrush;soap;shampoo;toothpaste",
+    "correctAnswer": "soap",
+    "phonetic": "/soʊp/ : xà phòng",
+    "hint": "soap = xà phòng"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'dầu gội'?",
+    "options": "soap;shampoo;toothpaste;comb",
+    "correctAnswer": "shampoo",
+    "phonetic": "/ʃæmˈpuː/ : dầu gội",
+    "hint": "shampoo = dầu gội"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'kem đánh răng'?",
+    "options": "toothbrush;soap;shampoo;toothpaste",
+    "correctAnswer": "toothpaste",
+    "phonetic": "/ˈtuːθ.peɪst/ : kem đánh răng",
+    "hint": "toothpaste = kem đánh răng"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'bàn chải đánh răng'?",
+    "options": "toothpaste;brush;comb;toothbrush",
+    "correctAnswer": "toothbrush",
+    "phonetic": "/ˈtuːθ.brʌʃ/ : bàn chải đánh răng",
+    "hint": "toothbrush = bàn chải"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'lược'?",
+    "options": "comb;brush;toothbrush;fork",
+    "correctAnswer": "comb",
+    "phonetic": "/koʊm/ : lược",
+    "hint": "comb = lược chải tóc"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'máy sấy tóc'?",
+    "options": "fan;hair dryer;shampoo;soap",
+    "correctAnswer": "hair dryer",
+    "phonetic": "/ˈher ˌdraɪ.ɚ/ : máy sấy tóc",
+    "hint": "hair dryer = sấy tóc"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you use to dry your body?",
+    "options": "",
+    "correctAnswer": "towel",
+    "phonetic": "/ˈtaʊ.əl/ : khăn tắm",
+    "hint": "dry body = lau người"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you use to wash your hair?",
+    "options": "",
+    "correctAnswer": "shampoo",
+    "phonetic": "/ʃæmˈpuː/ : dầu gội",
+    "hint": "wash hair = gội đầu"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you use to brush your teeth?",
+    "options": "",
+    "correctAnswer": "toothbrush",
+    "phonetic": "/ˈtuːθ.brʌʃ/ : bàn chải",
+    "hint": "brush teeth = đánh răng"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you put on the toothbrush?",
+    "options": "",
+    "correctAnswer": "toothpaste",
+    "phonetic": "/ˈtuːθ.peɪst/ : kem đánh răng",
+    "hint": "put on = cho vào"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "What do you use to wash your hands?",
+    "options": "",
+    "correctAnswer": "soap",
+    "phonetic": "/soʊp/ : xà phòng",
+    "hint": "wash hands = rửa tay"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái cốc súc miệng'?",
+    "options": "cup;plate;bowl;fork",
+    "correctAnswer": "cup",
+    "phonetic": "/kʌp/ : cái cốc",
+    "hint": "cup = cốc dùng trong bathroom"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'thảm phòng tắm'?",
+    "options": "carpet;bath mat;rug;blanket",
+    "correctAnswer": "bath mat",
+    "phonetic": "/ˈbæθ ˌmæt/ : thảm phòng tắm",
+    "hint": "bath mat = thảm để lau chân"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is 'cái móc treo khăn'?",
+    "options": "hanger;towel rack;drawer;rod",
+    "correctAnswer": "towel rack",
+    "phonetic": "/ˈtaʊ.əl ˌræk/ : giá treo khăn",
+    "hint": "towel rack = móc/giá treo khăn"
+  }
+]
