@@ -4,159 +4,159 @@
     "question": "What is 'máy giặt'?",
     "options": "washing machine;dryer;iron;basket",
     "correctAnswer": "washing machine",
-    "phonetic": "/ˈwɑːʃ.ɪŋ məˌʃiːn/ : máy giặt",
-    "hint": "washing machine = máy giặt"
+    "phonetic": "/ˈwɑːʃ.ɪŋ məˌʃiːn/ máy giặt",
+    "hint": "cách đọc là ˈwɑːʃ.ɪŋ məˌʃiːn"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'máy sấy quần áo'?",
     "options": "washing machine;dryer;fan;iron",
     "correctAnswer": "dryer",
-    "phonetic": "/ˈdraɪ.ɚ/ : máy sấy",
-    "hint": "dryer = máy sấy quần áo"
+    "phonetic": "/ˈdraɪ.ɚ/ máy sấy",
+    "hint": "cách đọc là ˈdraɪ.ɚ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'giỏ quần áo'?",
     "options": "basket;bag;drawer;box",
     "correctAnswer": "basket",
-    "phonetic": "/ˈbæs.kɪt/ : giỏ quần áo",
-    "hint": "basket = giỏ đựng đồ"
+    "phonetic": "/ˈbæs.kɪt/ giỏ quần áo",
+    "hint": "cách đọc là ˈbæs.kɪt"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'nước giặt / bột giặt'?",
     "options": "detergent;soap;shampoo;cleaner",
     "correctAnswer": "detergent",
-    "phonetic": "/dɪˈtɝː.dʒənt/ : bột giặt",
-    "hint": "detergent = chất giặt tẩy"
+    "phonetic": "/dɪˈtɝː.dʒənt/ bột giặt",
+    "hint": "cách đọc là dɪˈtɝː.dʒənt"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'nước xả vải'?",
     "options": "detergent;fabric softener;bleach;soap",
     "correctAnswer": "fabric softener",
-    "phonetic": "/ˈfæb.rɪk ˌsɑːf.nɚ/ : nước xả",
-    "hint": "làm mềm vải"
+    "phonetic": "/ˈfæb.rɪk ˌsɑːf.nɚ/ nước xả",
+    "hint": "cách đọc là ˈfæb.rɪk ˌsɑːf.nɚ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'chất tẩy'?",
     "options": "bleach;detergent;soap;powder",
     "correctAnswer": "bleach",
-    "phonetic": "/bliːtʃ/ : chất tẩy",
-    "hint": "bleach = tẩy trắng"
+    "phonetic": "/bliːtʃ/ chất tẩy",
+    "hint": "cách đọc là bliːtʃ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái bàn ủi'?",
     "options": "dryer;washing machine;iron;fan",
     "correctAnswer": "iron",
-    "phonetic": "/ˈaɪ.ɚn/ : bàn ủi",
-    "hint": "iron = ủi quần áo"
+    "phonetic": "/ˈaɪ.ɚn/ bàn ủi",
+    "hint": "cách đọc là ˈaɪ.ɚn"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'bàn kê để ủi'?",
     "options": "table;desk;ironing board;wardrobe",
     "correctAnswer": "ironing board",
-    "phonetic": "/ˈaɪə.nɪŋ bɔːrd/ : bàn ủi",
-    "hint": "ironing board = bàn kê để ủi"
+    "phonetic": "/ˈaɪə.nɪŋ bɔːrd/ bàn ủi",
+    "hint": "cách đọc là ˈaɪə.nɪŋ bɔːrd"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'móc treo quần áo'?",
     "options": "hanger;hook;rope;stick",
     "correctAnswer": "hanger",
-    "phonetic": "/ˈhæŋ.ɚ/ : móc treo",
-    "hint": "hanger = móc quần áo"
+    "phonetic": "/ˈhæŋ.ɚ/ móc treo",
+    "hint": "cách đọc là ˈhæŋ.ɚ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'dây phơi đồ'?",
     "options": "rope;line;clothesline;string",
     "correctAnswer": "clothesline",
-    "phonetic": "/ˈkloʊðz.laɪn/ : dây phơi đồ",
-    "hint": "clothesline = dây phơi"
+    "phonetic": "/ˈkloʊðz.laɪn/ dây phơi",
+    "hint": "cách đọc là ˈkloʊðz.laɪn"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'kẹp quần áo'?",
     "options": "peg;clip;hanger;hook",
     "correctAnswer": "peg",
-    "phonetic": "/peɡ/ : kẹp đồ",
-    "hint": "peg = kẹp quần áo"
+    "phonetic": "/peɡ/ kẹp đồ",
+    "hint": "cách đọc là peɡ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'tủ đồ giặt'?",
     "options": "cupboard;laundry cabinet;drawer;wardrobe",
     "correctAnswer": "laundry cabinet",
-    "phonetic": "/ˈlɑːn.dri ˌkæb.ɪ.nət/ : tủ đồ giặt",
-    "hint": "laundry cabinet = tủ cất đồ giặt"
+    "phonetic": "/ˈlɑːn.dri ˌkæb.ɪ.nət/ tủ đồ giặt",
+    "hint": "cách đọc là ˈlɑːn.dri ˌkæb.ɪ.nət"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to wash clothes?",
     "options": "",
     "correctAnswer": "washing machine",
-    "phonetic": "/ˈwɑːʃ.ɪŋ məˌʃiːn/ : máy giặt",
-    "hint": "wash clothes = giặt quần áo"
+    "phonetic": "/ˈwɑːʃ.ɪŋ məˌʃiːn/ máy giặt",
+    "hint": "cách đọc là ˈwɑːʃ.ɪŋ məˌʃiːn"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to dry clothes?",
     "options": "",
     "correctAnswer": "dryer",
-    "phonetic": "/ˈdraɪ.ɚ/ : máy sấy",
-    "hint": "dry clothes = sấy quần áo"
+    "phonetic": "/ˈdraɪ.ɚ/ máy sấy",
+    "hint": "cách đọc là ˈdraɪ.ɚ"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to make clothes soft?",
     "options": "",
     "correctAnswer": "fabric softener",
-    "phonetic": "/ˈfæb.rɪk ˌsɑːf.nɚ/ : nước xả",
-    "hint": "make soft = làm mềm"
+    "phonetic": "/ˈfæb.rɪk ˌsɑːf.nɚ/ nước xả",
+    "hint": "cách đọc là ˈfæb.rɪk ˌsɑːf.nɚ"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to remove stains?",
     "options": "",
     "correctAnswer": "bleach",
-    "phonetic": "/bliːtʃ/ : chất tẩy",
-    "hint": "remove stains = tẩy vết bẩn"
+    "phonetic": "/bliːtʃ/ chất tẩy",
+    "hint": "cách đọc là bliːtʃ"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to carry dirty clothes?",
     "options": "",
     "correctAnswer": "basket",
-    "phonetic": "/ˈbæs.kɪt/ : giỏ quần áo",
-    "hint": "carry = mang"
+    "phonetic": "/ˈbæs.kɪt/ giỏ quần áo",
+    "hint": "cách đọc là ˈbæs.kɪt"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to hang wet clothes?",
     "options": "",
     "correctAnswer": "clothesline",
-    "phonetic": "/ˈkloʊðz.laɪn/ : dây phơi",
-    "hint": "hang clothes = phơi đồ"
+    "phonetic": "/ˈkloʊðz.laɪn/ dây phơi",
+    "hint": "cách đọc là ˈkloʊðz.laɪn"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to iron clothes?",
     "options": "",
     "correctAnswer": "iron",
-    "phonetic": "/ˈaɪ.ɚn/ : bàn ủi",
-    "hint": "iron clothes = ủi đồ"
+    "phonetic": "/ˈaɪ.ɚn/ bàn ủi",
+    "hint": "cách đọc là ˈaɪ.ɚn"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you put clothes on when ironing?",
     "options": "",
     "correctAnswer": "ironing board",
-    "phonetic": "/ˈaɪə.nɪŋ bɔːrd/ : bàn ủi",
-    "hint": "put on = đặt lên"
+    "phonetic": "/ˈaɪə.nɪŋ bɔːrd/ bàn ủi",
+    "hint": "cách đọc là ˈaɪə.nɪŋ bɔːrd"
   }
 ]

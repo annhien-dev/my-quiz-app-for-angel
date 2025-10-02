@@ -4,159 +4,159 @@
     "question": "What is 'cái tủ lạnh'?",
     "options": "fridge;stove;microwave;oven",
     "correctAnswer": "fridge",
-    "phonetic": "/frɪdʒ/ : tủ lạnh",
-    "hint": "fridge = tủ lạnh"
+    "phonetic": "/frɪdʒ/ tủ lạnh",
+    "hint": "cách đọc là frɪdʒ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái bếp'?",
     "options": "oven;microwave;stove;fridge",
     "correctAnswer": "stove",
-    "phonetic": "/stoʊv/ : cái bếp",
-    "hint": "stove = bếp nấu"
+    "phonetic": "/stoʊv/ bếp",
+    "hint": "cách đọc là stoʊv"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái lò vi sóng'?",
     "options": "microwave;oven;stove;fridge",
     "correctAnswer": "microwave",
-    "phonetic": "/ˈmaɪ.kroʊ.weɪv/ : lò vi sóng",
-    "hint": "dùng để hâm nóng đồ ăn"
+    "phonetic": "/ˈmaɪ.kroʊ.weɪv/ lò vi sóng",
+    "hint": "cách đọc là ˈmaɪ.kroʊ.weɪv"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái lò nướng'?",
     "options": "microwave;oven;stove;pot",
     "correctAnswer": "oven",
-    "phonetic": "/ˈʌv.ən/ : lò nướng",
-    "hint": "oven = lò nướng bánh"
+    "phonetic": "/ˈʌv.ən/ lò nướng",
+    "hint": "cách đọc là ˈʌv.ən"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái nồi'?",
     "options": "bowl;pot;pan;plate",
     "correctAnswer": "pot",
-    "phonetic": "/pɑːt/ : cái nồi",
-    "hint": "pot = nồi nấu canh"
+    "phonetic": "/pɑːt/ nồi",
+    "hint": "cách đọc là pɑːt"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái chảo'?",
     "options": "pan;pot;plate;cup",
     "correctAnswer": "pan",
-    "phonetic": "/pæn/ : cái chảo",
-    "hint": "pan = chảo để chiên"
+    "phonetic": "/pæn/ chảo",
+    "hint": "cách đọc là pæn"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái bát'?",
     "options": "plate;cup;bowl;pot",
     "correctAnswer": "bowl",
-    "phonetic": "/boʊl/ : cái bát",
-    "hint": "bowl = bát ăn cơm"
+    "phonetic": "/boʊl/ bát",
+    "hint": "cách đọc là boʊl"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái đĩa'?",
     "options": "plate;cup;bowl;fork",
     "correctAnswer": "plate",
-    "phonetic": "/pleɪt/ : cái đĩa",
-    "hint": "plate = đĩa"
+    "phonetic": "/pleɪt/ đĩa",
+    "hint": "cách đọc là pleɪt"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái cốc'?",
     "options": "fork;cup;plate;knife",
     "correctAnswer": "cup",
-    "phonetic": "/kʌp/ : cái cốc",
-    "hint": "cup = cốc uống nước"
+    "phonetic": "/kʌp/ cốc",
+    "hint": "cách đọc là kʌp"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái dao'?",
     "options": "spoon;fork;knife;plate",
     "correctAnswer": "knife",
-    "phonetic": "/naɪf/ : con dao",
-    "hint": "knife = dao cắt"
+    "phonetic": "/naɪf/ dao",
+    "hint": "cách đọc là naɪf"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái thìa'?",
     "options": "fork;knife;plate;spoon",
     "correctAnswer": "spoon",
-    "phonetic": "/spuːn/ : cái thìa",
-    "hint": "spoon = muỗng"
+    "phonetic": "/spuːn/ thìa",
+    "hint": "cách đọc là spuːn"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái dĩa'?",
     "options": "plate;fork;cup;bowl",
     "correctAnswer": "fork",
-    "phonetic": "/fɔːrk/ : cái dĩa",
-    "hint": "fork = nĩa"
+    "phonetic": "/fɔːrk/ dĩa",
+    "hint": "cách đọc là fɔːrk"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to wash dishes?",
     "options": "",
     "correctAnswer": "soap",
-    "phonetic": "/soʊp/ : xà phòng",
-    "hint": "wash = rửa"
+    "phonetic": "/soʊp/ xà phòng",
+    "hint": "cách đọc là soʊp"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to clean the floor in the kitchen?",
     "options": "",
     "correctAnswer": "mop",
-    "phonetic": "/mɑːp/ : cây lau nhà",
-    "hint": "clean = dọn sạch"
+    "phonetic": "/mɑːp/ cây lau nhà",
+    "hint": "cách đọc là mɑːp"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái chậu rửa bát'?",
     "options": "sink;stove;fridge;microwave",
     "correctAnswer": "sink",
-    "phonetic": "/sɪŋk/ : bồn rửa",
-    "hint": "sink = bồn rửa chén"
+    "phonetic": "/sɪŋk/ bồn rửa",
+    "hint": "cách đọc là sɪŋk"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái dao kéo' (bộ dụng cụ ăn)?",
     "options": "cutlery;pot;plate;stove",
     "correctAnswer": "cutlery",
-    "phonetic": "/ˈkʌt.lɚ.i/ : dao kéo",
-    "hint": "cutlery = dao, thìa, nĩa"
+    "phonetic": "/ˈkʌt.lɚ.i/ dao kéo",
+    "hint": "cách đọc là ˈkʌt.lɚ.i"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái bàn ăn'?",
     "options": "chair;sofa;dining table;desk",
     "correctAnswer": "dining table",
-    "phonetic": "/ˈdaɪ.nɪŋ ˌteɪ.bəl/ : bàn ăn",
-    "hint": "dining table = bàn ăn"
+    "phonetic": "/ˈdaɪ.nɪŋ ˌteɪ.bəl/ bàn ăn",
+    "hint": "cách đọc là ˈdaɪ.nɪŋ ˌteɪ.bəl"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái ghế ăn'?",
     "options": "chair;sofa;bench;stool",
     "correctAnswer": "chair",
-    "phonetic": "/tʃer/ : ghế ăn",
-    "hint": "chair = ghế ngồi bàn ăn"
+    "phonetic": "/tʃer/ ghế ăn",
+    "hint": "cách đọc là tʃer"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to boil water?",
     "options": "",
     "correctAnswer": "kettle",
-    "phonetic": "/ˈket̬.əl/ : ấm đun nước",
-    "hint": "boil /bɔɪl/ : đun sôi"
+    "phonetic": "/ˈket̬.əl/ ấm đun nước",
+    "hint": "cách đọc là ˈket̬.əl"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to store food in the kitchen?",
     "options": "",
     "correctAnswer": "fridge",
-    "phonetic": "/frɪdʒ/ : tủ lạnh",
-    "hint": "store = cất giữ"
+    "phonetic": "/frɪdʒ/ tủ lạnh",
+    "hint": "cách đọc là frɪdʒ"
   }
 ]

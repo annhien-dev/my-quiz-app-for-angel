@@ -4,159 +4,159 @@
     "question": "What is 'cái giường'?",
     "options": "bed;sofa;chair;table",
     "correctAnswer": "bed",
-    "phonetic": "/bed/ : cái giường",
-    "hint": "bed = giường ngủ"
+    "phonetic": "/bed/ cái giường",
+    "hint": "cách đọc là bed"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái gối'?",
     "options": "pillow;blanket;bed;chair",
     "correctAnswer": "pillow",
-    "phonetic": "/ˈpɪl.oʊ/ : cái gối",
-    "hint": "pillow = gối ngủ"
+    "phonetic": "/ˈpɪl.oʊ/ cái gối",
+    "hint": "cách đọc là ˈpɪl.oʊ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái chăn'?",
     "options": "blanket;pillow;bed;sofa",
     "correctAnswer": "blanket",
-    "phonetic": "/ˈblæŋ.kɪt/ : cái chăn",
-    "hint": "blanket = chăn đắp"
+    "phonetic": "/ˈblæŋ.kɪt/ cái chăn",
+    "hint": "cách đọc là ˈblæŋ.kɪt"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái tủ quần áo'?",
     "options": "wardrobe;desk;drawer;table",
     "correctAnswer": "wardrobe",
-    "phonetic": "/ˈwɔːr.droʊb/ : tủ quần áo",
-    "hint": "wardrobe = tủ quần áo"
+    "phonetic": "/ˈwɔːr.droʊb/ tủ quần áo",
+    "hint": "cách đọc là ˈwɔːr.droʊb"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'ngăn kéo'?",
     "options": "drawer;wardrobe;desk;chair",
     "correctAnswer": "drawer",
-    "phonetic": "/drɔːr/ : ngăn kéo",
-    "hint": "drawer = ngăn kéo"
+    "phonetic": "/drɔːr/ ngăn kéo",
+    "hint": "cách đọc là drɔːr"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái bàn học'?",
     "options": "desk;table;bed;chair",
     "correctAnswer": "desk",
-    "phonetic": "/desk/ : bàn học",
-    "hint": "desk = bàn để học/làm việc"
+    "phonetic": "/desk/ bàn học",
+    "hint": "cách đọc là desk"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái ghế'?",
     "options": "chair;sofa;stool;bed",
     "correctAnswer": "chair",
-    "phonetic": "/tʃer/ : cái ghế",
-    "hint": "chair = ghế ngồi"
+    "phonetic": "/tʃer/ cái ghế",
+    "hint": "cách đọc là tʃer"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'đèn ngủ'?",
     "options": "lamp;clock;mirror;sofa",
     "correctAnswer": "lamp",
-    "phonetic": "/læmp/ : đèn ngủ",
-    "hint": "lamp = đèn bàn/đèn ngủ"
+    "phonetic": "/læmp/ đèn ngủ",
+    "hint": "cách đọc là læmp"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'đồng hồ báo thức'?",
     "options": "clock;lamp;fan;mirror",
     "correctAnswer": "alarm clock",
-    "phonetic": "/əˈlɑːrm ˌklɑːk/ : đồng hồ báo thức",
-    "hint": "alarm clock = đồng hồ báo thức"
+    "phonetic": "/əˈlɑːrm ˌklɑːk/ đồng hồ báo thức",
+    "hint": "cách đọc là əˈlɑːrm ˌklɑːk"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái gương'?",
     "options": "mirror;picture;clock;window",
     "correctAnswer": "mirror",
-    "phonetic": "/ˈmɪr.ɚ/ : gương",
-    "hint": "mirror = gương soi"
+    "phonetic": "/ˈmɪr.ɚ/ gương",
+    "hint": "cách đọc là ˈmɪr.ɚ"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you sleep on in the bedroom?",
     "options": "",
     "correctAnswer": "bed",
-    "phonetic": "/bed/ : giường",
-    "hint": "sleep on = nằm ngủ trên"
+    "phonetic": "/bed/ giường",
+    "hint": "cách đọc là bed"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you cover yourself with at night?",
     "options": "",
     "correctAnswer": "blanket",
-    "phonetic": "/ˈblæŋ.kɪt/ : chăn",
-    "hint": "cover = che phủ"
+    "phonetic": "/ˈblæŋ.kɪt/ chăn",
+    "hint": "cách đọc là ˈblæŋ.kɪt"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you put your head on when sleeping?",
     "options": "",
     "correctAnswer": "pillow",
-    "phonetic": "/ˈpɪl.oʊ/ : gối",
-    "hint": "put head on = gối đầu"
+    "phonetic": "/ˈpɪl.oʊ/ gối",
+    "hint": "cách đọc là ˈpɪl.oʊ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cửa sổ'?",
     "options": "door;curtain;window;mirror",
     "correctAnswer": "window",
-    "phonetic": "/ˈwɪn.doʊ/ : cửa sổ",
-    "hint": "window = cửa sổ"
+    "phonetic": "/ˈwɪn.doʊ/ cửa sổ",
+    "hint": "cách đọc là ˈwɪn.doʊ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái rèm'?",
     "options": "curtain;door;mirror;fan",
     "correctAnswer": "curtain",
-    "phonetic": "/ˈkɝː.tən/ : rèm cửa",
-    "hint": "curtain = rèm che"
+    "phonetic": "/ˈkɝː.tən/ rèm cửa",
+    "hint": "cách đọc là ˈkɝː.tən"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'thảm trải sàn'?",
     "options": "carpet;sofa;blanket;chair",
     "correctAnswer": "carpet",
-    "phonetic": "/ˈkɑːr.pɪt/ : thảm",
-    "hint": "carpet = thảm trải sàn"
+    "phonetic": "/ˈkɑːr.pɪt/ thảm",
+    "hint": "cách đọc là ˈkɑːr.pɪt"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái quạt'?",
     "options": "fan;clock;lamp;door",
     "correctAnswer": "fan",
-    "phonetic": "/fæn/ : cái quạt",
-    "hint": "fan = quạt"
+    "phonetic": "/fæn/ cái quạt",
+    "hint": "cách đọc là fæn"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to keep clothes in the bedroom?",
     "options": "",
     "correctAnswer": "wardrobe",
-    "phonetic": "/ˈwɔːr.droʊb/ : tủ quần áo",
-    "hint": "keep clothes = cất quần áo"
+    "phonetic": "/ˈwɔːr.droʊb/ tủ quần áo",
+    "hint": "cách đọc là ˈwɔːr.droʊb"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you look at to see yourself?",
     "options": "",
     "correctAnswer": "mirror",
-    "phonetic": "/ˈmɪr.ɚ/ : gương",
-    "hint": "see yourself = soi mình"
+    "phonetic": "/ˈmɪr.ɚ/ gương",
+    "hint": "cách đọc là ˈmɪr.ɚ"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you set to wake up in the morning?",
     "options": "",
     "correctAnswer": "alarm clock",
-    "phonetic": "/əˈlɑːrm ˌklɑːk/ : đồng hồ báo thức",
-    "hint": "wake up = thức dậy"
+    "phonetic": "/əˈlɑːrm ˌklɑːk/ đồng hồ báo thức",
+    "hint": "cách đọc là əˈlɑːrm ˌklɑːk"
   }
 ]

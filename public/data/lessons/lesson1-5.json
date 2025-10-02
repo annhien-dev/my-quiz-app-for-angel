@@ -4,159 +4,159 @@
     "question": "What is 'bàn ăn'?",
     "options": "dining table;desk;sofa;stool",
     "correctAnswer": "dining table",
-    "phonetic": "/ˈdaɪ.nɪŋ ˌteɪ.bəl/ : bàn ăn",
-    "hint": "dining table = bàn để ăn cơm"
+    "phonetic": "/ˈdaɪ.nɪŋ ˌteɪ.bəl/ bàn ăn",
+    "hint": "cách đọc là ˈdaɪ.nɪŋ ˌteɪ.bəl"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'ghế ăn'?",
     "options": "sofa;chair;bench;stool",
     "correctAnswer": "chair",
-    "phonetic": "/tʃer/ : ghế ăn",
-    "hint": "chair = ghế ngồi bàn ăn"
+    "phonetic": "/tʃer/ ghế ăn",
+    "hint": "cách đọc là tʃer"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái đĩa'?",
     "options": "bowl;cup;plate;fork",
     "correctAnswer": "plate",
-    "phonetic": "/pleɪt/ : cái đĩa",
-    "hint": "plate = đĩa ăn"
+    "phonetic": "/pleɪt/ cái đĩa",
+    "hint": "cách đọc là pleɪt"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái bát'?",
     "options": "bowl;plate;cup;pot",
     "correctAnswer": "bowl",
-    "phonetic": "/boʊl/ : cái bát",
-    "hint": "bowl = bát ăn"
+    "phonetic": "/boʊl/ cái bát",
+    "hint": "cách đọc là boʊl"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái cốc'?",
     "options": "fork;cup;knife;spoon",
     "correctAnswer": "cup",
-    "phonetic": "/kʌp/ : cái cốc",
-    "hint": "cup = cốc uống nước"
+    "phonetic": "/kʌp/ cái cốc",
+    "hint": "cách đọc là kʌp"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái ly thủy tinh'?",
     "options": "plate;glass;cup;bottle",
     "correctAnswer": "glass",
-    "phonetic": "/ɡlæs/ : cái ly",
-    "hint": "glass = ly uống nước"
+    "phonetic": "/ɡlæs/ cái ly",
+    "hint": "cách đọc là ɡlæs"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái chai'?",
     "options": "cup;bottle;plate;tray",
     "correctAnswer": "bottle",
-    "phonetic": "/ˈbɑː.t̬əl/ : cái chai",
-    "hint": "bottle = chai nước"
+    "phonetic": "/ˈbɑː.t̬əl/ cái chai",
+    "hint": "cách đọc là ˈbɑː.t̬əl"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái khay'?",
     "options": "plate;tray;cup;bowl",
     "correctAnswer": "tray",
-    "phonetic": "/treɪ/ : cái khay",
-    "hint": "tray = khay bưng đồ"
+    "phonetic": "/treɪ/ cái khay",
+    "hint": "cách đọc là treɪ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái dao'?",
     "options": "fork;knife;spoon;plate",
     "correctAnswer": "knife",
-    "phonetic": "/naɪf/ : con dao",
-    "hint": "knife = dao"
+    "phonetic": "/naɪf/ con dao",
+    "hint": "cách đọc là naɪf"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái thìa'?",
     "options": "fork;knife;plate;spoon",
     "correctAnswer": "spoon",
-    "phonetic": "/spuːn/ : cái thìa",
-    "hint": "spoon = muỗng"
+    "phonetic": "/spuːn/ cái thìa",
+    "hint": "cách đọc là spuːn"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái dĩa'?",
     "options": "spoon;knife;plate;fork",
     "correctAnswer": "fork",
-    "phonetic": "/fɔːrk/ : cái nĩa",
-    "hint": "fork = nĩa"
+    "phonetic": "/fɔːrk/ cái nĩa",
+    "hint": "cách đọc là fɔːrk"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'khăn ăn'?",
     "options": "napkin;towel;blanket;paper",
     "correctAnswer": "napkin",
-    "phonetic": "/ˈnæp.kɪn/ : khăn ăn",
-    "hint": "napkin = khăn ăn"
+    "phonetic": "/ˈnæp.kɪn/ khăn ăn",
+    "hint": "cách đọc là ˈnæp.kɪn"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'khăn trải bàn'?",
     "options": "napkin;tablecloth;towel;blanket",
     "correctAnswer": "tablecloth",
-    "phonetic": "/ˈteɪ.bəl.klɑːθ/ : khăn trải bàn",
-    "hint": "tablecloth = khăn trải bàn"
+    "phonetic": "/ˈteɪ.bəl.klɑːθ/ khăn trải bàn",
+    "hint": "cách đọc là ˈteɪ.bəl.klɑːθ"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái tủ chén'?",
     "options": "cupboard;wardrobe;drawer;desk",
     "correctAnswer": "cupboard",
-    "phonetic": "/ˈkʌb.ɚd/ : tủ chén",
-    "hint": "cupboard = tủ đựng chén bát"
+    "phonetic": "/ˈkʌb.ɚd/ tủ chén",
+    "hint": "cách đọc là ˈkʌb.ɚd"
   },
   {
     "type": "multiple-choice",
     "question": "What is 'cái đèn chùm'?",
     "options": "chandelier;lamp;fan;mirror",
     "correctAnswer": "chandelier",
-    "phonetic": "/ˌʃæn.dəˈlɪr/ : đèn chùm",
-    "hint": "chandelier = đèn trần"
+    "phonetic": "/ˌʃæn.dəˈlɪr/ đèn chùm",
+    "hint": "cách đọc là ˌʃæn.dəˈlɪr"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to drink water?",
     "options": "",
     "correctAnswer": "glass",
-    "phonetic": "/ɡlæs/ : cái ly",
-    "hint": "drink water = uống nước"
+    "phonetic": "/ɡlæs/ cái ly",
+    "hint": "cách đọc là ɡlæs"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to eat soup?",
     "options": "",
     "correctAnswer": "spoon",
-    "phonetic": "/spuːn/ : cái thìa",
-    "hint": "eat soup = ăn súp"
+    "phonetic": "/spuːn/ cái thìa",
+    "hint": "cách đọc là spuːn"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you use to cut meat?",
     "options": "",
     "correctAnswer": "knife",
-    "phonetic": "/naɪf/ : con dao",
-    "hint": "cut meat = cắt thịt"
+    "phonetic": "/naɪf/ con dao",
+    "hint": "cách đọc là naɪf"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you put on your lap when eating?",
     "options": "",
     "correctAnswer": "napkin",
-    "phonetic": "/ˈnæp.kɪn/ : khăn ăn",
-    "hint": "put on lap = đặt lên đùi"
+    "phonetic": "/ˈnæp.kɪn/ khăn ăn",
+    "hint": "cách đọc là ˈnæp.kɪn"
   },
   {
     "type": "fill-in-the-blank",
     "question": "What do you cover the dining table with?",
     "options": "",
     "correctAnswer": "tablecloth",
-    "phonetic": "/ˈteɪ.bəl.klɑːθ/ : khăn trải bàn",
-    "hint": "cover = phủ"
+    "phonetic": "/ˈteɪ.bəl.klɑːθ/ khăn trải bàn",
+    "hint": "cách đọc là ˈteɪ.bəl.klɑːθ"
   }
 ]
