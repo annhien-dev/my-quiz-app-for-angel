@@ -1,0 +1,226 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "There is ________ cat on the table.",
+    "options": "a;an;the;None",
+    "correctAnswer": "a",
+    "phonetic": "Cat' bắt đầu bằng 'c' (không thuộc uể oải) nên dùng 'a'. <br>IPA: /ðer ɪz ə kæt ɒn ðə ˈteɪbl/",
+    "hint": "Có một con mèo ở trên bàn."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "There is ________ new English book on the desk.",
+    "options": "a;an;the;Ø",
+    "correctAnswer": "a",
+    "phonetic": "New' bắt đầu bằng 'n' nên dùng 'a' để chỉ 1 cuốn sách. <br>IPA: /ðer ɪz ə njuː ˈɪŋɡlɪʃ bʊk ɒn ðə desk/",
+    "hint": "Có một quyển sách tiếng Anh mới trên bàn."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "On the weekend, my family goes to _ cinema.",
+    "options": "a;an;the;x",
+    "correctAnswer": "the",
+    "phonetic": "Go to the cinema' là cụm từ đi cùng nhau, con nhớ nhé! <br>IPA: /ɒn ðə ˌwiːkˈend maɪ ˈfæməli ɡəʊz tə ðə ˈsɪnəmə/",
+    "hint": "Vào cuối tuần, gia đình tớ đi xem phim."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I have _____ cat. _____ cat is fluffy.",
+    "options": "the/a;a/the;the/the;a/a",
+    "correctAnswer": "a/the",
+    "phonetic": "Lần đầu kể dùng 'a', nhắc lại chính con mèo đó dùng 'the'. <br>IPA: /aɪ hæv ə kæt. ðə kæt ɪz ˈflʌfi/",
+    "hint": "Tớ có một con mèo. Con mèo đó lông xù."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Look at _____ woman over there.",
+    "options": "a;an;the",
+    "correctAnswer": "the",
+    "phonetic": "Con chỉ tay vào ai đó cụ thể ở xa thì dùng 'the'. <br>IPA: /lʊk ət ðə ˈwʊmən ˈəʊvə ðeə/",
+    "hint": "Hãy nhìn người phụ nữ ở đằng kia kìa."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I go to ________ work in the morning.",
+    "options": "a;an;the;None",
+    "correctAnswer": "None",
+    "phonetic": "Go to work' (đi làm) là cụm từ đặc biệt, không thêm gì ở giữa. <br>IPA: /aɪ ɡəʊ tə wɜːrk ɪn ðə ˈmɔːrnɪŋ/",
+    "hint": "Tớ đi làm vào buổi sáng."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Look! _ boy over there is dancing.",
+    "options": "a;an;the;x",
+    "correctAnswer": "the",
+    "phonetic": "Con đang chỉ tay xác định đúng cậu bé đó nên dùng 'the'. <br>IPA: /lʊk ðə bɔɪ ˈəʊvə ðeə ɪz ˈdænsɪŋ/",
+    "hint": "Nhìn kìa! Cậu bé đằng kia đang nhảy múa."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "We have _____ cat, _____ dog and _____ goldfish.",
+    "options": "a/a/a;a/the/the;the/the/the",
+    "correctAnswer": "a/a/a",
+    "phonetic": "Các con vật này đều dùng 'a' vì là lần đầu con kể về chúng. <br>IPA: /wi hæv ə kæt, ə dɒɡ ənd ə ˈɡəʊldfɪʃ/",
+    "hint": "Nhà tớ có một con mèo, một con chó và một con cá vàng."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I have a pen. ________ pen is blue.",
+    "options": "a;an;the",
+    "correctAnswer": "the",
+    "phonetic": "Cây bút này đã nhắc ở câu trước rồi nên câu sau dùng 'the'. <br>IPA: /aɪ hæv ə pen. ðə pen ɪz bluː/",
+    "hint": "Tớ có một cây bút. Cây bút đó màu xanh."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "She is _____ nice girl.",
+    "options": "a;an;the;x",
+    "correctAnswer": "a",
+    "phonetic": "Nice' bắt đầu bằng 'n' nên con dùng 'a' nhé. <br>IPA: /ʃi ɪz ə naɪs ɡɜːrl/",
+    "hint": "Cô ấy là một cô gái rất ngoan."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Angel can play _ drum.",
+    "options": "a;an;the;x",
+    "correctAnswer": "the",
+    "phonetic": "Khi nói về chơi nhạc cụ (trống, đàn...) luôn phải có 'the'. <br>IPA: /ˈeɪndʒl kən pleɪ ðə drʌm/",
+    "hint": "Angel có thể chơi trống."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Where is _____ pen that I gave you yesterday?",
+    "options": "a;an;the;Ø",
+    "correctAnswer": "the",
+    "phonetic": "Đây là cây bút cụ thể (tớ cho mượn hôm qua) nên dùng 'the'. <br>IPA: /weər ɪz ðə pen ðæt aɪ ɡeɪv ju ˈjestədeɪ/",
+    "hint": "Cây bút tớ đưa bạn hôm qua đâu rồi?"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "The kids are sitting at _______ table.",
+    "options": "the;an;a",
+    "correctAnswer": "the",
+    "phonetic": "Các bạn nhỏ đang ngồi ở cái bàn quen thuộc nên dùng 'the'. <br>IPA: /ðə kɪdz ə ˈsɪtɪŋ ət ðə ˈteɪbl/",
+    "hint": "Lũ trẻ đang ngồi ở bàn ăn ngũ cốc."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I usually play _ badminton.",
+    "options": "a;an;the;x",
+    "correctAnswer": "x",
+    "phonetic": "Các môn thể thao (cầu lông, bóng đá...) không thêm gì ở trước. <br>IPA: /aɪ ˈjuːʒuəli pleɪ ˈbædmɪntən/",
+    "hint": "Tớ thường chơi cầu lông."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I go ... home at 5 p.m.",
+    "options": "a;an;the;None",
+    "correctAnswer": "None",
+    "phonetic": "Go home' (về nhà) là cụm từ đi liền, không thêm gì ở giữa. <br>IPA: /aɪ ɡəʊ həʊm ət faɪv piː em/",
+    "hint": "Tớ về nhà lúc 5 giờ chiều."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Look at ... monkey. It is hungry.",
+    "options": "a;an;the;x",
+    "correctAnswer": "the",
+    "phonetic": "Con đang bảo bạn nhìn vào 'con khỉ đó' nên dùng 'the'. <br>IPA: /lʊk ət ðə ˈmʌŋki. ɪt ɪz ˈhʌŋɡri/",
+    "hint": "Nhìn con khỉ kìa. Nó đang đói đấy."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "There is ________ piano in the corner.",
+    "options": "a;an;the;None",
+    "correctAnswer": "a",
+    "phonetic": "Khi dùng 'There is' để giới thiệu có một món đồ ở đâu đó, con dùng 'a' nhé.\nCòn nhạc cụ nói chung mới dùng \"the\"  <br>IPA: /ðer ɪz ðə piˈænəʊ ɪn ðə ˈkɔːrnə/",
+    "hint": "Có một cây đàn piano ở trong góc phòng."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Are you at _____ home?",
+    "options": "the;x;a;an",
+    "correctAnswer": "x",
+    "phonetic": "At home' là cụm từ quen thuộc, không bao giờ có 'the'. <br>IPA: /ɑːr ju ət həʊm/",
+    "hint": "Bạn có đang ở nhà không?"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I often go to ... movie theatre.",
+    "options": "a;an;the;None",
+    "correctAnswer": "the",
+    "phonetic": "Đi xem phim là cụm 'go to the movie theatre' con nhé. <br>IPA: /aɪ ˈɒfᵊn ɡəʊ tə ðə ˈmuːvi ˈθɪətə/",
+    "hint": "Tớ thường đi xem phim vào cuối tuần."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Is your mother ___ teacher? - No, she is ___ artist.",
+    "options": "a/the;a/an;an/a;an/the",
+    "correctAnswer": "a/an",
+    "phonetic": "Teacher' dùng 'a'. 'Artist' bắt đầu bằng 'A' (uể oải) nên dùng 'an'. <br>IPA: /ɪz jɔː ˈmʌðə ə ˈtiːtʃə? - ʃi ɪz ən ˈɑːrtɪst/",
+    "hint": "Mẹ bạn là giáo viên hả? - Không, mẹ tớ là họa sĩ."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I go to ________ school every day.",
+    "options": "a;an;the;None",
+    "correctAnswer": "None",
+    "phonetic": "Go to school' (đi học) là cụm từ không cần dùng mạo từ. <br>IPA: /aɪ ɡəʊ tə skuːl ˈevri deɪ/",
+    "hint": "Tớ đi học mỗi ngày."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "He is ________ Vietnamese man.",
+    "options": "a;an;the;None",
+    "correctAnswer": "a",
+    "phonetic": "Vietnamese' bắt đầu bằng 'v' nên con dùng 'a'. <br>IPA: /hi ɪz ə ˌvjetnəˈmiːz mæn/",
+    "hint": "Chú ấy là một người đàn ông Việt Nam."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Do you live in _____ house or _____ flat?",
+    "options": "an/an;the/the;a/a;a/an",
+    "correctAnswer": "a/a",
+    "phonetic": "Hai từ này bắt đầu bằng chữ cái bình thường nên dùng 'a'. <br>IPA: /du ju lɪv ɪn ə haʊs ɔːr ə flæt/",
+    "hint": "Bạn sống ở nhà riêng hay ở căn hộ?"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I need ________ umbrella.",
+    "options": "a;an;the;None",
+    "correctAnswer": "an",
+    "phonetic": "Umbrella' bắt đầu bằng 'U' (nằm trong uể oải) nên dùng 'an'. <br>IPA: /aɪ niːd ən ʌmˈbrelə/",
+    "hint": "Tớ cần một chiếc ô."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "There is ___ shoe store. But ___ shoe store is closed.",
+    "options": "a/a;the/the;a/the",
+    "correctAnswer": "a/the",
+    "phonetic": "Lần đầu nhắc cửa hàng dùng 'a', lần sau nhắc lại chính nó dùng 'the'. <br>IPA: /ðer ɪz ə ʃuː stɔː. ðə ʃuː stɔː ɪz kləʊzd/",
+    "hint": "Có một tiệm giày ở đây. Nhưng nó đang đóng cửa."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "(a) ___ earth moves around (b) ___ sun.",
+    "options": "The/the;A/a;An/an",
+    "correctAnswer": "The/the",
+    "phonetic": "Trái Đất và Mặt Trời là duy nhất nên luôn luôn có 'The'. <br>IPA: /ði ɜːθ muːvz əˈraʊnd ðə sʌn/",
+    "hint": "Trái Đất quay quanh Mặt Trời."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "I live in ___ apartment. ___ apartment is big.",
+    "options": "a/the;an/the;the/the",
+    "correctAnswer": "an/the",
+    "phonetic": "Apartment' bắt đầu bằng 'A' (uể oải) dùng 'an', lần sau dùng 'the'. <br>IPA: /aɪ lɪv ɪn ən əˈpɑːrtmənt. ðə əˈpɑːrtmənt ɪz bɪɡ/",
+    "hint": "Tớ sống trong một căn hộ. Căn hộ đó rất to."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "In the evening, we go for a walk at _ park.",
+    "options": "a;an;the;x",
+    "correctAnswer": "the",
+    "phonetic": "Công viên là nơi cụ thể mọi người ra chơi nên dùng 'the'. <br>IPA: /ɪn ðə ˈiːvnɪŋ wi ɡəʊ fər ə wɔːk ət ðə pɑːrk/",
+    "hint": "Buổi tối chúng tớ đi dạo ở công viên."
+  }
+]

@@ -39,12 +39,12 @@
   },
   {
     "id": "topic2",
-    "title": "Chủ đề 2: Vườn Cây Diệu Kỳ",
+    "title": "Ngữ Pháp",
     "icon": "🌳",
     "lessons": [
       {
         "id": "lesson2-1",
-        "title": "Bài 1: Các loại trái cây",
+        "title": "Bài 1: Mạo từ a, an, the",
         "path": "/data/lessons/lesson2-1.json"
       }
     ]
